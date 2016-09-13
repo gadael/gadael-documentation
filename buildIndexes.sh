@@ -4,7 +4,9 @@
 
 mdlink()
 {
-    echo "[${1}](${2})"
+    filename=$(basename "$2")
+    file="${filename%.*}.html"
+    echo "[${1}](${file})"
 }
 
 
@@ -28,6 +30,11 @@ buildIndex()
         if [[ -f $file ]]
         then
             label=$(head -n 1 "${file}" | grep title | cut -d ':' -f 2)
+            label=${label%% }
+            label=${label%%\"}
+            label=${label## }
+            label=${label##\"}
+
             if [[ $label ]]
             then
                 newlink=$(mdlink "${label}" "$file")
