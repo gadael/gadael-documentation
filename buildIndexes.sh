@@ -53,3 +53,4 @@ buildIndex()
 
 
 buildIndex 'fr' > docs/fr/index.md
+buildIndex 'en' > docs/en/index.md
