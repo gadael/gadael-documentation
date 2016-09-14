@@ -49,3 +49,10 @@ et l'administrateur.
 ## Congés imposés
 
 Les congés imposés sont créés par les administrateurs pour attribuer la même période d'absence à une population d'utilisateurs donnée.
+
+
+## Les exports
+
+### Excel
+
+### Sage
