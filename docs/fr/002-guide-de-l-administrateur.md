@@ -5,13 +5,25 @@ layout: "doc"
 
 ## Les utilisateurs
 
+![Liste dess utilisateurs vue par l'administrateur](images/userlist-with-one-admin.png)
+
+
+
 ### Création d'un nouvel utilisateur
 
 ### Les rôles
 
 #### Compte utilisateur absences
 
-Lorsque cette case est cochée, l'utilisteur peut être associé à un régime de congés
+Visualisation d'un utilisateur, les messages en rouge sont les paramètre manquants de la configuration.
+
+![Visualisation d'un utilisateur](images/user-account-view.png)
+
+Modification d'un utilisateur ayant un compte "absences"
+
+![Visualisation d'un utilisateur](images/user-account-edit.png)
+
+Lorsque cette case est cochée, d'autres options sont visibles, l'utilisteur peut être associé à un régime de congés
 
 #### Chef de service
 
@@ -19,6 +31,13 @@ Lorsque cette case est cochée, l'utilisteur peut être associé à un régime d
 
 Les personnes désignées par se rôle sont représenté dans l'enreprise par le service des ressources humaines.
 Ils pourrons gérer les droits d'absence et les périodes de renouvellements
+
+
+![Visualisation d'un administrateur](images/user-admin-view.png)
+
+Modification d'un utilisateur avec seulement le rôle administrateur
+
+![Modification d'un administrateur](images/user-admin-edit.png)
 
 ## Les types
 

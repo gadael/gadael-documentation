@@ -1,7 +1,9 @@
 #!/bin/bash
 
 
-
+# Create a link in markdown to a file in same folder
+# $1 - link label
+# $2 - full path to file
 mdlink()
 {
     filename=$(basename "$2")
@@ -9,7 +11,9 @@ mdlink()
     echo "[${1}](${file})"
 }
 
-
+# add new line
+# $1 - all lines string
+# $2 - the line to add
 embed_newline()
 {
    local p="$1"
@@ -21,7 +25,9 @@ embed_newline()
    echo -e "$p"          # Use -e
 }
 
-
+# Build one index file
+# $1 - language code
+# $2 - path to index
 buildIndex()
 {
     mdlinks=""
@@ -51,6 +57,31 @@ buildIndex()
     echo $mdlinks
 }
 
+# Create symlinks for on language folder
+# $1 - language code
+linkAssets()
+{
+    ln -sfr assets/* "docs/${1}/"
+}
 
-buildIndex 'fr' > docs/fr/index.md
-buildIndex 'en' > docs/en/index.md
+# Process one language
+# $1 - language code
+buildLanguage()
+{
+    buildIndex ${1} > "docs/${1}/index.md"
+    linkAssets ${1}
+}
+
+
+for ldir in docs/*
+do
+    if [[ -d ${ldir} ]]
+    then
+        ldir=$(basename "${ldir}")
+        buildLanguage ${ldir}
+    fi
+done
+
+cd ../gadael || exit
+jasmine-node --captureExceptions test/doc/
+cp -r test/doc/screenshots/* ../gadael-documentation/assets/images
