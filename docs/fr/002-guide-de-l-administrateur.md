@@ -70,7 +70,28 @@ Modification d'un utilisateur avec seulement le rôle administrateur
 
 ## Les types
 
+Les types de droits permettent de regrouper des droits d'absence entre eux.
+
+La liste des types proposés par défaut :
+
+![Les types](images/typelist.png)
+
+
+Création ou modification d'un type de droit :
+
+![Les types](images/type-edit.png)
+
+Lors de la création d'une demande, l'utilisateur doit répartir les jours demandés sur ces droits de congés, dans la liste, les droits sont groupés par types.
+La case a cocher sur le type permet de changer l'état par défaut des droits de ce type. Malgré cette option, tous les types peuvent êtres pliés et dépliés manuellement par l'utilisateur. L'option permet de cacher par défault les droits les moins important quand il peut y en avoir un grand nombre, par example, pour les récupérations, le nombre de droits dépend du nombre de demandes de récupérations acceptées au préalable.
+
 ## Les droits
+
+### Options du droit
+
+### les règles d'affichage
+
+
+
 
 ## Les régimes
 
