@@ -25,7 +25,36 @@ Modification d'un utilisateur ayant un compte "absences"
 
 Lorsque cette case est cochée, d'autres options sont visibles, l'utilisteur peut être associé à un régime de congés
 
+Champs supplémentaires disponibles pour ce rôle :
+
+* __Date d'arrivée__ : Cette date est utilisée par l'application pour les calcul de droits avec ajout au solde tous les mois. Un régime standard peut être associé à l'utilisateur car les ajouts mensuels de solde serons effectifs uniquement à partir de cette date.
+* __Date de début d'anciennetée__ : Cette date est utilisée pour déterminer si un droit d'anciennetée est visible ou non.
+* __Numéro de matricule SAGE__ : Ce champ est utilisé uniquement dans l'export SAGE, il permettre d'effectuer un rapprochement avec les comptes de Sage paie lors de l'import mensuel des périodes d'absences.
+* __Les options de notification__ : Permet de paramétrer quels sont les emails envoyés. L'utilisateur peut lui même changer ces paramètres lorsqu'il est connecté.
+
+
 #### Chef de service
+
+Le rôle du chef de service est de valider les demandes d'absences effectuées par les membres de son service.
+
+Un utilisateur peut être responsable de plusieurs services, dans ce cas il devra approuver les demandes en provenance des deux services.
+
+Si une hiérarchie des services est mise en place, les approbation se ferons à plusieurs niveau. La hiérarchie des services est utilisée uniquement pour l'approbation des demandes, il n'est donc pas nécessaire de la paramétrer pour représenter la structure de l'enreprise, il faut l'utiliser pour représenter la struture de l'approbation souhaitée. Par exemple si le service resources humaines doit valider toutes les absences, il doit être placé en haut.
+
+
+Visualisation d'un compte utilisateur chef de service :
+
+![Visualisation d'un chef de service](images/user-manager-view.png)
+
+Modification d'un chef de service :
+
+![Modification d'un chef de service](images/user-manager-edit.png)
+
+Lors de la modification, le champ de sélection mutiple "Services à superviser lors des demandes d'approbation" permet de déterminer là ou la personne est responsable.
+
+Le champ service qui lui est disonible pour tous les utilisateurs sera utilisé pour déterminer qui est l'approbateur de cette personne.
+
+
 
 #### Administrateur
 
