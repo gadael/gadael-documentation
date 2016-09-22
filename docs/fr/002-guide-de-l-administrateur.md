@@ -86,7 +86,34 @@ La case a cocher sur le type permet de changer l'état par défaut des droits de
 
 ## Les droits
 
+Un droit est un ensemble de règle d'attribution de jours de congés, sur chaque droits,
+un ou plusieurs renouvellement peuvent être créés, ils déterminent les périodes d'attribution, au début de chaque renouvellement, le solde est crédité en tenant compte de tous les paramètres du droit.
+
+Suivant les paramètres du droit, il est possible que l'utilisateur puisse avoir accès à plusieurs renouvellements en même temps lorsqu'il souhaite utilisé sont crédit de jour.
+
+![Liste des droits](images/rightlist.png)
+
+### Création d'un droit
+
+TODO: écran de création des droits spéciaux
+
+
+lors de la création d'un nouveau droit, il est possible de créé des droits spéciaux avec par example une quantité dynamique en fonction de certains paramètres.
+
+Dans ce cas, il est possible que la quantité initiale ne soit pas visible ou pas modifiable par la suite car elle sera calculée d'une manière différente à chaque début de renouvellement.
+
 ### Options du droit
+
+![Modification du droit congés payés annuel](images/right-edit-annual-leave.png)
+
+
+| Nom du champ                | Description            |
+|-----------------------------|------------------------|
+| Type                        | Les types de droits permettent de grouper les droits par catégorie lors de la création de demandes de congés |
+| Quantité par défaut         | Il s'agit de la quantité initiale de chaque  renouvellement |
+| Unité                       | la quantité peut être en jours ou en heures
+| Quantité à ajouter tous les mois | Obligatoirement dans la même unité que la quantité par défaut, ce champ permet de définir la quantité attribuée automatiquement chaque premier jour de mois, peandant toute la période du renouvellement. Cette ajout ne sera fait que pour les dates situées après la date d'arrivée dans l'enreprise (champ du compte utilisateur) |
+| Actif pour                  | Permet de déterminer qui peut créer les demandes d'absences. Par exemple pour un droit d'absences pour maladie, ou pourra laisser uniquement l'administrateur créer les absences |
 
 ### les règles d'affichage
 
@@ -96,6 +123,28 @@ La case a cocher sur le type permet de changer l'état par défaut des droits de
 ## Les régimes
 
 Un régime de congés est un ensemble de droits qui peut être associé aux utilisateur.
+
+Un certains nombre de régimes sont initialisés lors de l'installation de l'application,
+cette liste dépend du pays d'utilisation.
+
+Des nouveaux régimes peuvent êtres créés en cas de régime de congé particulier.
+
+La liste des régime :
+
+![Les régimes](images/collectionlist.png)
+
+Formulaire de modification d'un régime :
+
+![Modification d'un régime](images/collection-edit.png)
+
+Lors de la création d'un régime, des champs complémentaires peuvent être reseignés :
+
+| Nom du champ                | Description            |
+|-----------------------------|------------------------|
+| Le pourcentage de présence  | Cette indication est a donner pour les régimes de temps partiel  |
+| Les jours ouvrés            | Les jours ouvrés sont utilisés lors du calcul du nombre de jours de RTT a attribuer  |
+| jours travaillés de l'accord de la convention collective | Le nombre de jours travaillés dans l'année, il sera utilisé pour le calcul du nombre de RTT |
+
 
 ## Les demandes
 
