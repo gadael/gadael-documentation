@@ -57,11 +57,15 @@ buildIndex()
     echo $mdlinks
 }
 
-# Create symlinks for on language folder
+
+# build screenshots in gadael project and copy to documentation
 # $1 - language code
-linkAssets()
+getScreenshots()
 {
-    ln -sfr assets/* "docs/${1}/"
+    cd ../gadael || exit
+    node doc/create_screenshots/build.js ${1}
+    cd ../gadael-documentation
+    cp ../gadael/doc/screenshots/${1}/* docs/${1}/images/
 }
 
 # Process one language
@@ -69,7 +73,7 @@ linkAssets()
 buildLanguage()
 {
     buildIndex ${1} > "docs/${1}/index.md"
-    linkAssets ${1}
+    getScreenshots ${1}
 }
 
 
@@ -81,7 +85,3 @@ do
         buildLanguage ${ldir}
     fi
 done
-
-cd ../gadael || exit
-jasmine-node --captureExceptions test/doc/
-cp -r test/doc/screenshots/* ../gadael-documentation/assets/images
