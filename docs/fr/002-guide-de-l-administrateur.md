@@ -168,9 +168,38 @@ et l'administrateur.
 
 Les congés imposés sont créés par les administrateurs pour attribuer la même période d'absence à une population d'utilisateurs donnée.
 
+C'est un outil qui permet de créer des périodes d'absence sur plusieurs utilisateurs à la fois avec les caractéristiques suivantes :
+
+* les absences sont déjà validées (pas de circuit d'approbation)
+* un seul droit de congés est utilisé par période.
+
+La quantité consomée par utilisateur peut varier en fonction du planning de travail.
+
 
 ## Les exports
 
+![Exports possibles](images/exports.png)
+
 ### Excel
 
+Il existe deux type d'export possibles au format excel :
+
+#### l'export des demandes
+
+Exporte une ligne par demande d'absence. Les demandes doivent être incluses ou a cheval sur la période saisie sur le formulaire d'export.
+
+![Exports possibles](images/export-edit-xlsx.png)
+
+#### l'export des soldes
+
+Exporte une ligne par utilisateur et par droit avec un compte absence.
+
+Le formulaire d'export permet de sélectionner une date. les quantité indiqués dans les différentes colonnes de l'export corespondrons à l'état de l'application à la date demandée.
+
+
+
 ### Sage
+
+L'export au format SAGE permet d'importer un fichier dans sage paie pour compléter les fiches de paie du mois avec les périodes de congés prises sur le type congés payés.
+
+![Exports possibles](images/export-edit-sage.png)
