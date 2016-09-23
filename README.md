@@ -1,14 +1,19 @@
 # gadael-documentation
-Markdown documentation with mutiple versions
+
+Markdown documentation with mutiple versions generated from git tags or branchs
+
+Link beetween files from differents languages will be created from the first
+3 characters of the filenames.
+
+## Build screenshots and indexes
 
 
-Documentation first plan
+```bash
+./build.sh
+```
 
-Root folder is langage, example fr or en or fr-BE. 
-Followed by url representation of the category, in the local languge. 
-Next are the MD files
+The build script require the gadael repository cloned on the same level, screenshots
+will be created on a gadael server using phantomjs as client and copied back to this
+repository.
 
-Example
-
-* /fr/premier-lancement/creer-son-enreprise.md
-* /en/quick-start/create-my-company.md
+Indexes in languages folders will be updated automatically.
