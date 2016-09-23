@@ -91,7 +91,21 @@ un ou plusieurs renouvellement peuvent être créés, ils déterminent les péri
 
 Suivant les paramètres du droit, il est possible que l'utilisateur puisse avoir accès à plusieurs renouvellements en même temps lorsqu'il souhaite utilisé sont crédit de jour.
 
+La liste des droits :
+
 ![Liste des droits](images/rightlist.png)
+
+A partir de la visualisation d'un droit, plusieurs éléments sont paramétrables :
+* La modification du droit
+* Gérer la liste des règles (permet de définir les conditions qui autorisent l'utilisation du solde, pour plus de détail, consultez la [documentation](007-regles-des-droits.html))
+* Gérer la liste des renouvellements
+* Visualiser la liste des régimes de congés associés, Les associations régime/droits se font depuis la modification d'un régime.
+
+![Visalisation du droit congés payés annuel](images/right-view-annual-leave.png)
+
+
+
+
 
 ### Création d'un droit
 
@@ -114,10 +128,15 @@ Dans ce cas, il est possible que la quantité initiale ne soit pas visible ou pa
 | Unité                       | la quantité peut être en jours ou en heures
 | Quantité à ajouter tous les mois | Obligatoirement dans la même unité que la quantité par défaut, ce champ permet de définir la quantité attribuée automatiquement chaque premier jour de mois, peandant toute la période du renouvellement. Cette ajout ne sera fait que pour les dates situées après la date d'arrivée dans l'enreprise (champ du compte utilisateur) |
 | Actif pour                  | Permet de déterminer qui peut créer les demandes d'absences. Par exemple pour un droit d'absences pour maladie, ou pourra laisser uniquement l'administrateur créer les absences |
+| Répartition automatique     | La quantité à distribuer sur les droits sera automatiquement attribuée sur ce droit sans dépassement de la quantité disponible et en respectant l'ordre des types et des droits, si un autre droit existe au dessus avec cette option cochée le solde de ce droit sera utilisé en priorité |
+| Require une approbation     | Cette option permet de désactiver l'approbation. Cela peut être utilisé pour les déclaration d'absence maladie, conjointement avec l'option "Active pour". |
+| Utiliser la période d'ouverture par défaut | Décocher cette option permet d'élargir la disponibilité du droit en fonction des dates de début et de fin des renouvellements. |
+| Permettre les dépôts sur le compte épargne temps | A cocher si ce droit peut être épargné.
+| Quantité consommée pour les régimes temps partiel | Cette option permet le choix de la règle de consomation du solde pour les temps partiels, pour plus d'informations consulter la [documentation](006-temps-partiels.html).
 
-### les règles d'affichage
+### Les renouvellements
 
-
+Depuis la fiche de visualisation d'un droit, il faut ajouter des renouvellements pour que le droit puisse être accessible. Toutes les règles du droits sont basées sur les périodes de renouvellements.
 
 
 ## Les régimes
