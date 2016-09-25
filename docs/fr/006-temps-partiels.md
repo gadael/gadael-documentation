@@ -13,6 +13,9 @@ le temp partiel avec un nombre de jours inférieurs proportionel, il faudra pour
 différents, le chapitre suivant devra être ignoré dans ce cas et les régimes devrons contenir un
 pourcentage de présence égal a 100%.
 
+![Paramètres du régime](images/collection-parttime-edit.png)
+
+
 ## Règles de calcul du temps consommé
 
 Avec ces règles de calcul, on obtiendra une quantité consomé suppérieur au nombre de jours pris lors

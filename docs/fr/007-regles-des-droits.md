@@ -15,11 +15,15 @@ Les règles tiennent compte à la fois des paramètres de l'utilisteur et des pa
 
 ## les types de règles
 
-### Date de la demande
+
+![Ajout d'une règle](images/rightrule-edit-annual-leave.png)
+
+
+### Date de la création de la demande
 
 Cette règles permet de spécifier que la date de création de la demande doit être comprise dans la période du renouvellement. Des parmètres permettent de créer des périodes de tolérance avant ou après.
 
-### Période d'absence
+### Période d'absence demandée
 
 Cette règles permet d'imposer que la période d'absence demandée soit comprise dans la période du renouvellement. Des parmètres permettent de créer des périodes de tolérance avant ou après.
 
