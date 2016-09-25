@@ -20,6 +20,10 @@ d'une utilisation pour un régime temps partiel.
 
 ### Proportionellement au pourcentage de présence
 
+La quantité consommée est obtenue avec la formule
+durée consommée x (100 x (1/pourcentage de présence))
+
+
 Paramètre du régime :
 
 Indiquer un pourcentage de présence inférieur à 100%
@@ -30,14 +34,18 @@ Indiquer le type de consomation "proportionel au temps de présence"
 
 Quelques examples :
 
-TODO
+* Pour un régime a 50% une absence de une journée va consommer 2 jours sur le solde.
+* Pour un régime a 75% une absence de une journée va consommer 1,3 jours.
 
 
 ### Selon les Jours ouvrés
 
+La consomation se fait uniquement sur des jours entiers, un jour entamée est un jour consommé, les
+jours ouvrés non travaillé par le personnel a temps partiel sont comptabilisé comme consommé.
+
 Paramètre du régime :
 
-TODO
+Cocher les jours ouvrés associés au régime
 
 Paramètres du droit :
 
@@ -45,14 +53,21 @@ Indiquer le type de consomation "Consommer les jours ouvrés suivants"
 
 Quelques examples :
 
-TODO
+Pour un régime non travaillé le vendredi
+
+* Une absence le jeudi matin (durée 0,5 jour) va provoquer une consomation de 2 jours sur le solde de congés.
+* Une absence le jeudi toute la journée (durée 1 jour) va provoquer une consomation de 2 jours sur le solde de congés.
+* Une absence le mercredi matin (durée 0,5 jour) va provoquer une consomation de 1 jour sur le solde de congés.
+* Une absence le mercredi toute la journée (durée 1 jour) va provoquer une consomation de 1 jour sur le solde de congés.
+
 
 ### Selon les jours travaillés
 
+Ce type de calcul arrondi la cosommation du droit au jours entiers
 
 Paramètre du régime :
 
-TODO
+Indiquer le nombre de jours travaillés annuels de la convention collective.
 
 Paramètres du droit :
 
@@ -60,4 +75,7 @@ Indiquer le type de consomation "Consommer les jours travaillés suivants"
 
 Quelques examples :
 
-TODO
+Pour un régime non travaillé le vendredi
+
+* Une absence le jeudi matin (durée 0,5 jour) va provoquer une consomation de 1 jour sur le solde de congés.
+* Une absence le jeudi toute la journée (durée 1 jour) va provoquer une consomation de 1 jour sur le solde de congés.
