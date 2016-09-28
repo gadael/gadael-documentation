@@ -5,3 +5,6 @@ layout: doc
 Les droit sont triés par l'administrateur lors de la configuration,
 cet ordre sera utilisé par l'application pour déterminer comment sont
 consommés les droit lors de la répartition sur le calendrier de l'utilisteur.
+
+
+![ordonner](images/right-sort.png)
