@@ -8,7 +8,15 @@ layout: "doc"
 
 ## L'agenda
 
+![mon agenda](images/account-calendar.png)
+
 ### Lien avec l'agenda google
+
+## Mes droits
+
+![mes droits](images/account-rights.png) 
+
+La liste de mes droits permet de visualiser les règles d'utilisations de chaque droits qui me sont attribués.
 
 ## La liste des demandes
 
