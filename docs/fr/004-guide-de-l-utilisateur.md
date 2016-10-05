@@ -8,9 +8,20 @@ layout: "doc"
 
 ## L'agenda
 
+L'agenda personel permet de visualiser :
+
+* Les absences
+* les périodes de travail donnant droit a récupération
+* les jours fériés
+
 ![mon agenda](images/account-calendar.png)
 
+
 ### Lien avec l'agenda google
+
+Si vous utilisez un compte google calendar, il est possible de synchroniser automatiquement les événements de votre compte personel dans un agenda de votre compte google calendar.
+
+Le paramétrage de cette fonctionnalité s'effectue depuis le menu utilisateur > paramètres
 
 ## Mes droits
 
@@ -19,6 +30,14 @@ layout: "doc"
 La liste de mes droits permet de visualiser les règles d'utilisations de chaque droits qui me sont attribués.
 
 ## La liste des demandes
+
+Les demandes sont ordonnées par la date de création, les demandes les plus récentes appraissent en premier. Plusieurs types de demandes peuvent apparaitres dans cette liste :
+
+* Les absences
+* Les dépôts sur le compte épargne temps
+* Les demandes de récupération
+
+Parmis les absences affichées, il peut y avoir des demandes de congés crées par vous, des absences imposées crées par les gestionnaires sur un ensemble de personnes ou des absences crées par les gestionnaires uniquement sur votre compte (ce type d'absence peut être traitée par une approbation).
 
 ## Créer une demande congés
 
