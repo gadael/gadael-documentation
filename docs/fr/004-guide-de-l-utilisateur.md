@@ -25,9 +25,20 @@ Le paramétrage de cette fonctionnalité s'effectue depuis le menu utilisateur >
 
 ## Mes droits
 
-![mes droits](images/account-rights.png) 
+![mes droits](images/account-rights.png)
 
 La liste de mes droits permet de visualiser les règles d'utilisations de chaque droits qui me sont attribués.
+
+Pour visualiser le détail des renouvellement, il faut cliquer sur le nom du droit.
+
+Cette page permet de consulter les éventuels ajustements manuels effectuées par les gestionnaires, cela peut être le cas lors d'une arrivée dans l'entreprise en cours de période.
+
+L'historique des ajustements peut aussi contenir des ajouts  menuelles automatique de solde pour les droits qui doivent dont la quantité est aquise au fur et a mesure des jours travaillés.
+
+Des diminution automatique de solde peuvent se produire et serons visible sur cette page, par exemple les diminution de RTT en fonction des arrêts maladie.
+
+![mes droits](images/account-annual-leave.png)
+
 
 ## La liste des demandes
 
@@ -61,7 +72,7 @@ Lors de la deuxième étape, le tableau affichée contient tous les droits qui p
 
 Si un droit est affiché avec un solde à zéro, c'est que les soldes négatifs sont autorisés, cela peut être le cas pour les congés sans solde par example.
 
-TODO: ajouter des lins vers la FAQ
+TODO: ajouter des liens vers la FAQ
 
 comment connaitre les règles d'affichage dans cette liste?
 comment utiliser mon compte épargne temps?
@@ -76,4 +87,3 @@ comment utiliser les soldes négatifs?
 ## Créer un dépôt sur le compte épargne temps
 
 ![épargner du temps](images/account-time-saving-deposit-create.png)
-
