@@ -23,9 +23,15 @@ Les règles tiennent compte à la fois des paramètres de l'utilisteur et des pa
 
 Cette règles permet de spécifier que la date de création de la demande doit être comprise dans la période du renouvellement. Des parmètres permettent de créer des périodes de tolérance avant ou après.
 
+Il est recommendé d'utiliser ce type de règle en plus d'une règle en fonction de la période d'absence demandée car il ne permet pas de contrôler quand serons pris les congés.
+
+Par exemple, si seul ce type de règle est mis en place, il est possible de poser une période d'absence plusieurs années à l'avance.
+
 ### Période d'absence demandée
 
 Cette règles permet d'imposer que la période d'absence demandée soit comprise dans la période du renouvellement. Des parmètres permettent de créer des périodes de tolérance avant ou après.
+
+Ce type de règle est le plus courament utilisé.
 
 ### Ancienneté
 
