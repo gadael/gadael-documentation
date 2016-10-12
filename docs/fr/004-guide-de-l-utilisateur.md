@@ -82,6 +82,12 @@ comment utiliser les soldes négatifs?
 
 ## Créer une demande de récupération de jours travaillés
 
+Vous pouvez créer des demandes de récupération, pour cela, il faut déclarer une période travaillée située en dehors de ces horaires de travail.
+
+La demande sera envoyée en approbation en suivant le schéma de validation des chefs de services. Si la demande est validée, un droit suplémentaire sera créé pour l'utilisateur lui permettant d'utiliser en congés une durée prédéfinie par l'administrateur et validée par l'approbateur qui ne sera pas nécéssairement identique à la période de travail suplémentaire déclarée.
+
+Interface de déclaration de la période travaillée :
+
 ![déclarer sa journée travailllée](images/account-workperiod-recover-create.png)
 
 ## Créer un dépôt sur le compte épargne temps
