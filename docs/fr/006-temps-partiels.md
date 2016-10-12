@@ -66,7 +66,7 @@ Pour un régime non travaillé le vendredi
 
 ### Selon les jours travaillés
 
-Ce type de calcul arrondi la cosommation du droit au jours entiers
+Ce type de calcul arrondi la consommation du droit au jours entiers
 
 Paramètre du régime :
 
