@@ -8,7 +8,7 @@ mdlink()
 {
     filename=$(basename "$2")
     file="${filename%.*}.html"
-    echo "[${1}](${file})"
+    echo "* [${1}](${file})"
 }
 
 # add new line
