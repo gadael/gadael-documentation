@@ -90,6 +90,21 @@ Interface de déclaration de la période travaillée :
 
 ![déclarer sa journée travailllée](images/account-workperiod-recover-create.png)
 
+La quantité de congés récuépré dépendra du choix effectué dans la liste déroulante "Récupération revendiquée". La période de travail déclarée sur le planning permettra de justifier cette demande auprès des approbateurs, La récupération revendiquée poura être modifiée par les approbateurs s'ils estiment qu'elle est incorrecte sans pour autant que la demande soit refusée.
+
+
+
+
 ## Créer un dépôt sur le compte épargne temps
 
+Pour que cette fonctionnalité soit accessible, il faut qu'un droit de compte épargen temps soit actif pour votre compte. Seul un administrateur pourra activer un compte épargne temps pour les utilisateurs.
+
+Les comptes épargne temps sont des droits de congés avec une durée d'utilisation plus longue que les périodes de renouvellement des congés payés classiques. Ils permettent d'épargner ces congés non utilisés pour une utilisation ultérieure.
+
+Pour consulter les règles d'utilisation de votre compte épargne temps, vous pouvez utiliser le menu "Mes droits".
+
 ![épargner du temps](images/account-time-saving-deposit-create.png)
+
+Les dépôts sur le compte épargne temps devrois être validée par les chefs de services selon le même procédé que les autres types de demande.
+
+La quantité incluse dans les demandes de dépôts sur le compte épargne temps en attente d'approbation n'est plus utilisable dans demandes de congés. Seul un refus de la demande permettra de récupérer cette quantité pour une utilisation normale.
