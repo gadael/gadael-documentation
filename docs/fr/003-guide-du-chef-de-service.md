@@ -8,6 +8,11 @@ Depuis la page d'accueil, le gestionnaire peut consulter le planning des prochai
 ![Page d'accueil](images/manager-home.png)
 
 
+Les rôles d'utilisateur, responsable de service et administrateurs peuvent être cumulés, dans ce cas des menus suppélmentaires serons visible dans la barre de menu en haut de page.
+
+La pluspart du temps, un responsable de service sera aussi utilisateur.
+
+
 ## Les demandes en attente
 
 Sur la liste des demandes en attente, les demandes sont groupées par utilisateur et ordonnées par date de création.
