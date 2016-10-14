@@ -3,9 +3,9 @@ layout: doc
 
 ---
 
-L'application peut être utilisée pour n'importe quel pays. Cepeandant les règles
+L'application peut être utilisée pour n'importe quel pays. Cependant les règles
 spécifiques de ces pays ont été pris en compte pour proposer une initialisation
-de la base de donnés appropriée en fonction de la domiciliation des utilisateurs.
+de la base de données appropriée en fonction de la domiciliation des utilisateurs.
 
 ## France
 
