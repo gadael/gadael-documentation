@@ -29,7 +29,7 @@ Champs supplémentaires disponibles pour ce rôle :
 
 * __Date d'arrivée__ : Cette date est utilisée par l'application pour les calcul de droits avec ajout au solde tous les mois. Un régime standard peut être associé à l'utilisateur car les ajouts mensuels de solde serons effectifs uniquement à partir de cette date.
 * __Date de début d'anciennetée__ : Cette date est utilisée pour déterminer si un droit d'anciennetée est visible ou non.
-* __Numéro de matricule SAGE__ : Ce champ est utilisé uniquement dans l'export SAGE, il permettre d'effectuer un rapprochement avec les comptes de Sage paie lors de l'import mensuel des périodes d'absences.
+* __Numéro de matricule SAGE__ : Ce champ est utilisé uniquement dans l'export SAGE, il permet d'effectuer un rapprochement avec les comptes de Sage paie lors de l'import mensuel des périodes d'absences.
 * __Les options de notification__ : Permet de paramétrer quels sont les emails envoyés. L'utilisateur peut lui même changer ces paramètres lorsqu'il est connecté.
 
 
