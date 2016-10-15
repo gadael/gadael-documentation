@@ -72,7 +72,7 @@ Paramètre du régime :
 
 indiquer le nombre de jours travaillés annuel de la convention collective.
 
-paramètres du droit :
+Paramètre du droit :
 
 indiquer le type de consommation "Consommer les jours travaillés suivants"
 
