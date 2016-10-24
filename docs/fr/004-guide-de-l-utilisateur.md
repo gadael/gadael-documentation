@@ -3,8 +3,19 @@ layout: "doc"
 
 ---
 
+## La page d'accueil
+
+![Résumé des droits](images/account-home.png)
+
+Sur la page d'accueil, un résumé des droits disponible est affiché, suivi de la liste des membres de mon service avec un planning des disponiblité sur les prochains jours.
+
 
 ## La liste des demandes
+
+
+![Résumé des droits](images/account-requests.png)
+
+Depuis la liste des demandes, vous pourrez surveiller l'avancement de l'approbations des des demandes déjà crées.
 
 ## L'agenda
 
