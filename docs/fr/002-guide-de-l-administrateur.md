@@ -19,11 +19,23 @@ Visualisation d'un utilisateur, les messages en rouge sont les paramètre manqua
 
 ![Visualisation d'un utilisateur](images/user-account-view.png)
 
+Depuis la fiche de visualisation, il est possible de définir le régime de congés,
+le rythme de travail et les jours fériés en vigueur.
+Les quantités par droit attribuées sur l'utilisateurs peuvent être modifiées pour les cas particuliers.
+
+Pour tous ces paramètres, des configuration doivent être faites dans les autres menu si les choix proposés sont insuffisants.
+
+Vous pouvez consulter l'article concernant la [planification des paramètres](010-planification-des-parametres.html).
+
+
+
+
 Modification d'un utilisateur ayant un compte "absences"
 
-![Visualisation d'un utilisateur](images/user-account-edit.png)
+![Modification d'un utilisateur](images/user-account-edit.png)
 
-Lorsque cette case est cochée, d'autres options sont visibles, l'utilisteur peut être associé à un régime de congés
+Lorsque la case "Compte utilisateur absences" est cochée, d'autres options sont visibles sur le formulaire,
+et cela fait apparaitre des boutons supplémentaires sur la fiche de visulisation.
 
 Champs supplémentaires disponibles pour ce rôle :
 
@@ -31,6 +43,8 @@ Champs supplémentaires disponibles pour ce rôle :
 * __Date de début d'anciennetée__ : Cette date est utilisée pour déterminer si un droit d'anciennetée est visible ou non.
 * __Numéro de matricule SAGE__ : Ce champ est utilisé uniquement dans l'export SAGE, il permet d'effectuer un rapprochement avec les comptes de Sage paie lors de l'import mensuel des périodes d'absences.
 * __Les options de notification__ : Permet de paramétrer quels sont les emails envoyés. L'utilisateur peut lui même changer ces paramètres lorsqu'il est connecté.
+
+
 
 
 #### Chef de service
@@ -156,7 +170,7 @@ Formulaire de modification d'un régime :
 
 ![Modification d'un régime](images/collection-edit.png)
 
-Lors de la création d'un régime, des champs complémentaires peuvent être reseignés :
+Lors de la création d'un régime, des champs complémentaires peuvent être renseignés :
 
 | Nom du champ                | Description            |
 |-----------------------------|------------------------|
