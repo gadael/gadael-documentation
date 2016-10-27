@@ -7,7 +7,32 @@ layout: doc
 
 ### La date d'arrivée
 
+La date d'arrivée dans l'entreprise peut être enregistrée sur la fiche de l'utilisateur.
+
+Cette date est utilisée pour :
+
+* ignorer les renouvellements de droits de congés terminés avant l'arrivée de l'utilisateur.
+* Ingorer les ajustement de la quantité enregistrés avant la date d'arrivée.
+
+Par example, pour les contrats à durée déterminée, il est possible d'utiliser un droit
+de congés payés avec un incrémentation mensuelle de la quantité automatique le premier
+jour du mois. Dans ce cas les ajustements mensuels des mois qui précède la date d'arrivée
+serons ignorés.
+
+Ce paramètre fait varier la quantité initiale du droit de manière distincite pour chaque
+utilisateur.
+
+La date d'arrivée est modifiable sur le formulaire de l'utilisateur :
+
+![Modification d'un utilisateur](images/user-account-edit.png)
+
+
+
 ### Paramétrage de la date de début du régime
+
+
+
+
 
 ### Modification de la quantité
 

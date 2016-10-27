@@ -8,7 +8,7 @@ mdlink()
 {
     filename=$(basename "$2")
     file="${filename%.*}.html"
-    echo "- [${1}](${file})"
+    echo "* [${1}](${file})"
 }
 
 # add new line
@@ -54,7 +54,7 @@ buildIndex()
     echo ""
     echo "---"
     echo ""
-    echo $mdlinks
+    echo "$mdlinks"
 }
 
 
@@ -64,7 +64,7 @@ getScreenshots()
 {
     cd ../gadael || exit
     node doc/create_screenshots/build.js ${1}
-    cd ../gadael-documentation
+    cd ../gadael-documentation || exit
     cp ../gadael/doc/screenshots/${1}/* docs/${1}/images/
 }
 
