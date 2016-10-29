@@ -1,5 +1,6 @@
-title: Les règles des droits
+title: "Les règles des droits"
 layout: doc
+contentId: "doc-rights-rules"
 
 ---
 

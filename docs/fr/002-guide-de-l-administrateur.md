@@ -1,5 +1,6 @@
 title: "Guide de l'administrateur"
 layout: "doc"
+contentId: "doc-admin-guide"
 
 ---
 

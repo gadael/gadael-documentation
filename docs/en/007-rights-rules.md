@@ -1,3 +1,5 @@
-title: The rights rules
+title: "The rights rules"
 layout: doc
+contentId: "doc-rights-rules"
+
 ---

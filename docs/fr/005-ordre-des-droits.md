@@ -1,5 +1,7 @@
-title: L'ordre des droits
-layout: doc
+title: "L'ordre des droits"
+layout: "doc"
+contentId: "doc-rights-order"
+
 ---
 
 Les droits sont triés par l'administrateur lors de la configuration,

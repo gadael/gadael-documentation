@@ -1,5 +1,6 @@
 title: "Guide du chef de service"
 layout: "doc"
+contentId: "doc-department-head"
 
 ---
 

@@ -1,5 +1,6 @@
 title: "Guide de l'utilisateur"
 layout: "doc"
+contentId: "doc-user-guide"
 
 ---
 
