@@ -1,0 +1,11 @@
+{
+    "name": "gadael-documentation",
+    "description": "Gadael documentation to be included in the gadael.com website",
+    "version": "0.0.0",
+    "private": true,
+    "author": "Paul de Rosanbo",
+    "license": "GFDL",
+    "bugs": {
+        "url": "https://github.com/gadael/gadael-documentation/issues"
+    }
+}
