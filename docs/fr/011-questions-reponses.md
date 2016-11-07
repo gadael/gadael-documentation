@@ -28,6 +28,8 @@ Un sytème linux avec [nodejs](https://nodejs.org/) et [mongodb](https://www.mon
 
 ### Comment utiliser la base de données exportée depuis gadael.com?
 
-L'archive exportée est réalisée à partir du dossier produit par la commande [mongodump](https://docs.mongodb.com/manual/reference/program/mongodump/). Il faudra utiliser [mongorestore](https://docs.mongodb.com/manual/reference/program/mongorestore/#bin.mongorestore) pour importer ces données sur un autre serveur.
+L'archive exportée est réalisée à partir du dossier produit par la commande [mongodump](https://docs.mongodb.com/manual/reference/program/mongodump/). Il faudra utiliser [mongorestore](https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/#restore-a-database-with-mongorestore) pour importer ces données sur un autre serveur.
 
 ### Ou puis-je trouver un hébergeur compatible?
+
+Les dépendances peuvent être installées sur un serveur dédié ou virtualisé, pour les serveurs sans accès root, les principeaux hébergeur proposent des environements [MEAN](https://en.wikipedia.org/wiki/MEAN_%28software_bundle%29) préconfigurés qui conviennent tout à fait.
