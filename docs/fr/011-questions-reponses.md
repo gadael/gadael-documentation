@@ -9,14 +9,26 @@ contentId: "doc-faq"
 
 ### Comment mettre en place la diminution du solde des RTT en fonction des arrêts maladie?
 
+TODO
+
 ### Comment approvisionner la nouveau le solde du droit au début d'une nouvelle période?
+
+Gadael permet la planification à l'avance des périodes de congés et part du principe que toutes périodes débutent avec le même solde. Une fous le droit créer, il faut créer des périodes de renouvellement, le solde sera renouvellé automatiquement à chaque début de période.
+
+### Il y a déjà un historique de renouvellements mails le nombre de jours du droit doit changer pour la prochaine période et les suivantes, comment faire?
+
+Dans ce cas, il est recommendé de créer un nouveau droit pour éviter toute confusion, si le même nom de droit doit être conservé, il est conseillé de renommer l'ancien. Cette méthode permet de garder l'historique tel quel et d'éviter d'avoir des soldes non consommés sur des périodes passées.
+
+### Comment déclarer absent l'ensemble des employés?
+
+Il faut utiliser la fonctionnalité "Congés imposés" du menu administrateur. Vous pouvez consulter le [chapitre correpsondant](002-guide-de-l-administrateur.html#Conges-imposes) pour plus d'informations.
 
 
 ## Installer son propre serveur
 
-### Ou télécharger le code source?
+### Ou télécharger le code source? contribuer au développement?
 
-Le code ainsi que la documentation sont disponibles sur [github](https://github.com/gadael/)
+Le code ainsi que la documentation sont disponibles sur [github](https://github.com/gadael/). Toutes les contributions sont ls bienvenues.
 
 ### Quels sont les prérequis matériels?
 
