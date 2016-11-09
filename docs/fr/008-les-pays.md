@@ -10,14 +10,33 @@ de la base de données appropriée en fonction de la domiciliation des utilisate
 
 ## France
 
+- Congés payés, 25 jours
+- RTT
+- Zones de jours fériés :
+  - France
+  - Guadeloupe
+  - Martinique
+  - Guyane
+  - Moselle, Bas-Rhin, Haut-Rhin
+  - Nouvelle Calédonie
+  - Polynésie Française
+  - Réunion
+  - Wallis et Futuna
 
 ## Royaume-Uni
 
+- Congés payés, 28 jours
+- Zones de jours fériés :
+  - Angleterre et Pays de Galles
+  - Irlande du Nord
+  - Écosse
 
 ## Etats-Unis
 
 
 ## Suisse
+
+- Zones de jours fériés :
 
 
 ## Belgique
@@ -27,3 +46,8 @@ de la base de données appropriée en fonction de la domiciliation des utilisate
 
 
 ## Irelande
+
+
+## Allemagne
+
+- Zones de jours fériés :
