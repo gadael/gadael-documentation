@@ -9,7 +9,7 @@ contentId: "doc-faq"
 
 ### Comment paramétrer les jours fériés?
 
-Des agendas de jours fériés peuvent êtres ajoutés par l'administrateur depuis la rubrique agenda. Pour chaque utilisateur, il faudra paramétrer la planification de l'agenda depuis sa fiche utilisateur.
+Des agendas de jours fériés peuvent êtres ajoutés par l'administrateur depuis la rubrique agenda. Pour chaque utilisateur, il faudra paramétrer la planification de l'agenda depuis sa fiche utilisateur. Pour cela vous pouvez consulter l'article sur la [planification des paramètres](010-planification-des-parametres.html#choix-de-lagenda-des-jours-fériés)
 
 La configuration des jours fériés n'est disponible que pour les utilisateurs avec un compte "absences".
 
@@ -17,7 +17,7 @@ La création de nouveaux agendas de jours fériés utilise l'adresse URL d'un fi
 
 ### Comment paramétrer les rythmes de travail?
 
-Des agendas de rythme de travail peuvent êtres ajoutés par l'administrateur depuis la rubrique agenda. Pour chaque utilisateur, il faudra paramétrer la planification de l'agenda depuis sa fiche utilisateur.
+Des agendas de rythme de travail peuvent êtres ajoutés par l'administrateur depuis la rubrique agenda. Pour chaque utilisateur, il faudra paramétrer la planification de l'agenda depuis sa fiche utilisateur. Pour cela vous pouvez consulter l'article sur la [planification des paramètres](010-planification-des-parametres.html#changement-de-rythme-de-travail)
 
 La configuration des rythmes de travail n'est disponible que pour les utilisateurs avec un compte "absences".
 
