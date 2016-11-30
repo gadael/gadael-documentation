@@ -246,10 +246,11 @@ L'export au format SAGE permet d'importer un fichier dans sage paie pour complé
 
 ![Liste des agandas disponibles par défaut](images/calendarlist.png)
 
-L'administrateur peut paramétrer depuis cette liste un ensemble d'agenda qui pourrons être utilisé par la suite sur les comptes utilisateurs. Les agendas sont de 2 types possibles :
+L'administrateur peut paramétrer depuis cette liste un ensemble d'agenda qui pourrons être utilisé par la suite sur les comptes utilisateurs. Les agendas sont de 3 types possibles :
 
 * Agenda de jours fériés
 * Agenda de rythme de travail
+* Agenda des vacances scolaires
 
 ### Ajouts/Modifications d'agendas
 
