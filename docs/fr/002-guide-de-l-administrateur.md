@@ -237,3 +237,18 @@ Le formulaire d'export permet de sélectionner une date. les quantité indiqués
 L'export au format SAGE permet d'importer un fichier dans sage paie pour compléter les fiches de paie du mois avec les périodes de congés prises sur le type congés payés.
 
 ![Exports possibles](images/export-edit-sage.png)
+
+
+
+## Les Agendas
+
+L'administrateur peut paramétrer depuis cette liste un ensemble d'agenda qui pourrons être utilisé par la suite sur les comptes utilisateurs. Les agendas sont de 2 types possibles :
+
+* Agenda de jours fériés
+* Agenda de rythme de travail
+
+Pour étendre la liste des agendas proposés par défaut, il faudra utiliser le format [icalendar](https://fr.wikipedia.org/wiki/ICalendar) et disposer d'un serveur pour héberger des fichiers ICS pour qu'ils soient accessibles sur internet.
+
+Le format [icalendar](https://fr.wikipedia.org/wiki/ICalendar) permet de créer des agendas contenant des règles de répétition complexes qui permettrons de répondre a l'ensemble de vos besoins pour la spécifications de vos rythmes de travail.
+
+Il est possible d'utiliser des fichiers ICS créés depuis google agenda en utilisant la fonction de [partage de google agenda](https://support.google.com/calendar/answer/37083). Plus d'informations sont disponbles dans l'aide de google dans le chapitre "Partager un lien vers votre agenda à l'aide de l'adresse de l'agenda", Gadael sera capable d'interpréter votre agenda partagé de la même façon que le ferais outlook ou une autre application d'agenda.
