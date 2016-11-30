@@ -81,6 +81,8 @@ L'écran de planification du rythme de travail est accessible depuis la fiche de
 
 ![Modification d'un utilisateur](images/user-account-schedulecalendars.png)
 
+La liste des agendas pouvant être utilisé sur cette page peut être modifiée par l'administrateur depuis la rubrique "agendas".
+
 ## Choix de l'agenda des jours fériés
 
 L'écran de planification des jours fériés est accessible depuis la fiche de visualisation de l'utilisateur :
@@ -91,3 +93,6 @@ Cet écran peut être utilisé dans le cas d'un changement de législation, dans
 cas il faudra modifier la planification pour tous les utilisateurs pour basculer vers le nouvel agenda des jours fériés.
 
 Dans le cas ou l'utilisateur va travailler dans un autre pays avec des jours différents seul sa fiche sera à modifier.
+
+La liste des agendas pouvant être utilisé sur cette page peut être modifiée par l'administrateur depuis la rubrique "agendas".
+
