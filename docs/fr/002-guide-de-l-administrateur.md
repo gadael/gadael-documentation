@@ -242,10 +242,20 @@ L'export au format SAGE permet d'importer un fichier dans sage paie pour complé
 
 ## Les Agendas
 
+### Liste des agendas
+
+![Liste des agandas disponibles par défaut](images/calendarlist.png)
+
 L'administrateur peut paramétrer depuis cette liste un ensemble d'agenda qui pourrons être utilisé par la suite sur les comptes utilisateurs. Les agendas sont de 2 types possibles :
 
 * Agenda de jours fériés
 * Agenda de rythme de travail
+
+### Ajouts/Modifications d'agendas
+
+Exemple, modification d'un agenda de rythme de travail présent dans la liste fournie initialement :
+
+![Modification d'un agenda](images/calendar-edit-5d-40h.png)
 
 Pour étendre la liste des agendas proposés par défaut, il faudra utiliser le format [icalendar](https://fr.wikipedia.org/wiki/ICalendar) et disposer d'un serveur pour héberger des fichiers ICS pour qu'ils soient accessibles sur internet.
 
