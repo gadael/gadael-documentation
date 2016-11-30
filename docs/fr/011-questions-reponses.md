@@ -13,12 +13,17 @@ Des agendas de jours fériés peuvent êtres ajoutés par l'administrateur depui
 
 La configuration des jours fériés n'est disponible que pour les utilisateurs avec un compte "absences".
 
-La création de nouveaux agendas de jours fériés utilise l'adresse URL d'un fichier au format icalendar, si les agendas proposés par défaut ne vous conviennent pas, il est possible de créer de nouveaux fichier icalendar qu'il faudra paramétrer et héberger par vous même. Les fichiers fournis par défaut utilisant le projet [icsdb](https://github.com/gadael/icsdb) qui peut être amélioré par des contributions extérieures.
+La création de nouveaux agendas de jours fériés utilise l'adresse URL d'un fichier au format [icalendar](https://fr.wikipedia.org/wiki/ICalendar), si les agendas proposés par défaut ne vous conviennent pas, il est possible de créer de nouveaux fichier icalendar qu'il faudra paramétrer et héberger par vous même. Les fichiers fournis par défaut utilisant le projet [icsdb](https://github.com/gadael/icsdb) qui peut être amélioré par des contributions extérieures.
 
 ### Comment paramétrer les rythmes de travail?
 
+Des agendas de rythme de travail peuvent êtres ajoutés par l'administrateur depuis la rubrique agenda. Pour chaque utilisateur, il faudra paramétrer la planification de l'agenda depuis sa fiche utilisateur.
 
+La configuration des rythmes de travail n'est disponible que pour les utilisateurs avec un compte "absences".
 
+La création de nouveaux agendas de rythme de travail utilise l'adresse URL d'un fichier au format [icalendar](https://fr.wikipedia.org/wiki/ICalendar), si les agendas proposés par défaut ne vous conviennent pas, il est possible de créer de nouveaux fichier icalendar qu'il faudra paramétrer et héberger par vous même.
+
+Les différents rythmes de travail proposés par défaut sont disponibles en exemple dans [ce dossier](https://github.com/gadael/gadael/tree/master/public/calendars)
 
 ### Comment mettre en place la diminution du solde des RTT en fonction des arrêts maladie?
 
