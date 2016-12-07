@@ -263,3 +263,10 @@ Pour étendre la liste des agendas proposés par défaut, il faudra utiliser le 
 Le format [icalendar](https://fr.wikipedia.org/wiki/ICalendar) permet de créer des agendas contenant des règles de répétition complexes qui permettrons de répondre a l'ensemble de vos besoins pour la spécifications de vos rythmes de travail.
 
 Il est possible d'utiliser des fichiers ICS créés depuis google agenda en utilisant la fonction de [partage de google agenda](https://support.google.com/calendar/answer/37083). Plus d'informations sont disponbles dans l'aide de google dans le chapitre "Partager un lien vers votre agenda à l'aide de l'adresse de l'agenda", Gadael sera capable d'interpréter votre agenda partagé de la même façon que le ferais outlook ou une autre application d'agenda.
+
+Lors de la création d'un agenda de rythme de travail, deux champs supplémentaires sont visibles :
+* l'heure de la demi-journée
+* le nombre d'heures moyen d'une journée
+
+Ces paramètres sont utilisé pour convertir les heures en jours car les demandes d'absences sont effectées en heures mais les soldes de congés sont la pluspart du temps en jours, précis à la demi-journée.
+
