@@ -31,11 +31,11 @@ TODO
 
 ### Comment approvisionner le nouveau solde du droit au début d'une nouvelle période?
 
-Gadael permet la planification à l'avance des périodes de congés et part du principe que toutes périodes débutent avec le même solde. Une fous le droit créer, il faut créer des périodes de renouvellement, le solde sera renouvellé automatiquement à chaque début de période.
+Gadael permet la planification à l'avance des périodes de congés et part du principe que toutes périodes débutent avec le même solde. Une fois le droit créer, il faut créer des périodes de renouvellement, le solde sera renouvelé automatiquement à chaque début de période.
 
 ### Il y a déjà un historique de renouvellements mails le nombre de jours du droit doit changer pour la prochaine période et les suivantes, comment faire?
 
-Dans ce cas, il est recommendé de créer un nouveau droit pour éviter toute confusion, si le même nom de droit doit être conservé, il est conseillé de renommer l'ancien. Cette méthode permet de garder l'historique tel quel et d'éviter d'avoir des soldes non consommés sur des périodes passées.
+Dans ce cas, il est recommandé de créer un nouveau droit pour éviter toute confusion, si le même nom de droit doit être conservé, il est conseillé de renommer l'ancien. Cette méthode permet de garder l'historique tel quel et d'éviter d'avoir des soldes non consommés sur des périodes passées.
 
 ### Comment déclarer absent l'ensemble des employés?
 
@@ -50,7 +50,7 @@ Le code ainsi que la documentation sont disponibles sur [github](https://github.
 
 ### Quels sont les prérequis matériels?
 
-Il n'y a pas de consomation de ressource importante pour l'utilisation de ce logiciel, le serveur devra être dimmentionné en fonction du nombre d'utilisateur pouvant se connecter simultanément.
+Il n'y a pas de consommation de ressource importante pour l'utilisation de ce logiciel, le serveur devra être dimensionné en fonction du nombre d'utilisateur pouvant se connecter simultanément.
 
 ### Quels sont les prérequis logiciels?
 
@@ -62,4 +62,4 @@ L'archive exportée est réalisée à partir du dossier produit par la commande 
 
 ### Ou puis-je trouver un hébergeur compatible?
 
-Les dépendances peuvent être installées sur un serveur dédié ou virtualisé, pour les serveurs sans accès root, les principeaux hébergeur proposent des environements [MEAN](https://en.wikipedia.org/wiki/MEAN_%28software_bundle%29) préconfigurés qui conviennent tout à fait.
+Les dépendances peuvent être installées sur un serveur dédié ou virtualisé, pour les serveurs sans accès root, les principaux hébergeur proposent des environnements [MEAN](https://en.wikipedia.org/wiki/MEAN_%28software_bundle%29) pré-configurés qui conviennent tout à fait.
