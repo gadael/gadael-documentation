@@ -6,4 +6,11 @@ contentId: "doc-quick-start"
 
 ## Introduction à Gadael
 
-Dans ce paragraphe, vous serez guidé pour créé votre première demande de congés en tant qu'utilisateur
+### Création d'un compte sur gadael.com
+
+![Create account](images/saas-signup.png)
+
+### Options de l'administrateur
+
+
+#### Le mode maintenance
