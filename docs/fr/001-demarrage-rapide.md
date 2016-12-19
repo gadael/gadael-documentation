@@ -15,15 +15,21 @@ Si vous gérez vous même votre propres serveur, il n'y a pas de limite dans le 
 
 ### Création d'un compte sur gadael.com
 
-![Create account](images/saas-signup.png)
+![Créer le compte](images/saas-signup.png)
 
 __Nom du site__
 
 Le nom du site choisis ne doit pas contenir de caractères spéciaux ni d'espaces.
 
 
+![Démarrer l'application](images/saas-app-start.png)
+
+Après la création de votre compte, vous pourrez lancer votre application à l'aide du formulaire de paramétrage. Les autres options du compte ne sont pas accessibles tant que l'application n'est pas lancée.
+
 ### Options de l'administrateur
 
+
+![Create account](images/saas-company-settings.png)
 
 __Le mode maintenance__
 
