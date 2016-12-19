@@ -31,6 +31,11 @@ Après la création de votre compte, vous pourrez lancer votre application à l'
 
 ![Create account](images/saas-company-settings.png)
 
+
+__Les récupérations de jours travaillés__
+
+Cette fonctionalité peut être activée pour permettre aux employés de déclarer du temps travaillé sur une période habituellement non travaillée. Cette demande suivra un processus d'approbation qui permet a l'utilisateur de récupérer tout ou une partie de ce temps de travail sous la forme de droits de congés.
+
 __Le mode maintenance__
 
 Activer le mode maintenance peut être utilisé lors du paramétrage des droits de congés pour éviter que les utilisateur créent des demandes alors de la confirguration n'est pas terminée.
