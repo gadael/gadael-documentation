@@ -1,5 +1,5 @@
 title: Documentation
-layout: doc
+layout: docindex
 
 ---
 
