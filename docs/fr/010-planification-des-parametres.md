@@ -6,6 +6,8 @@ contentId: "doc-planning-parameters"
 
 Ce guide est destinés aux administrateurs pour planifier les attributions de droits.
 
+<!-- more -->
+
 ## Arrivée dans l'enreprise
 
 ### La date d'arrivée
@@ -95,4 +97,3 @@ cas il faudra modifier la planification pour tous les utilisateurs pour basculer
 Dans le cas ou l'utilisateur va travailler dans un autre pays avec des jours différents seul sa fiche sera à modifier.
 
 La liste des agendas pouvant être utilisé sur cette page peut être modifiée par l'administrateur depuis la rubrique "agendas".
-

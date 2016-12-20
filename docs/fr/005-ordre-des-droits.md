@@ -4,6 +4,10 @@ contentId: "doc-rights-order"
 
 ---
 
+Le rôle de l'ordre des droits et des types dans l'application.
+
+<!-- more -->
+
 Les droits sont triés par l'administrateur lors de la configuration,
 cet ordre sera utilisé par l'application pour déterminer comment sont
 consommés les droits lors de la répartition sur le calendrier de l'utilisateur.

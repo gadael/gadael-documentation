@@ -4,6 +4,10 @@ contentId: "doc-parts-times"
 
 ---
 
+A l'intention des administrateurs, ce document explique les configurations spécifiques à mettre en place pour les régimes à temps partiels.
+
+<!-- more -->
+
 
 ## Généralités
 

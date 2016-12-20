@@ -8,6 +8,8 @@ L'application peut être utilisée pour n'importe quel pays. Cependant les règl
 spécifiques de ces pays ont été pris en compte pour proposer une initialisation
 de la base de données appropriée en fonction de la domiciliation des utilisateurs.
 
+<!-- more -->
+
 ## France
 
 - Congés payés, 25 jours

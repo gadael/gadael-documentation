@@ -4,6 +4,10 @@ contentId: "doc-rights-rules"
 
 ---
 
+A l'intention des administrateurs, ce document explique les règles qui peuvent être paramétrées sur les droit pour déterminer quand et comment les utilisateurs peuvent consommer le solde qui leur à été attribué.
+
+<!-- more -->
+
 ## Généralités
 
 Un droit est attribué à un utilisateur s'il est actif et associé au régime. Dans ce cas il apparaîtra sur la liste dans la page "Mes droits".

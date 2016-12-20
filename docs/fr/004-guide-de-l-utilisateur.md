@@ -4,6 +4,11 @@ contentId: "doc-user-guide"
 
 ---
 
+Cette documentation décrit le rôle de l'utilisateur. Il peut créer des demandes de congés, consulter le solde des droits, effectuer des dépôts sur le compte épargne temps ou récupérer du temps de travail sous la forme de droits de congés.
+
+<!-- more -->
+
+
 ## La page d'accueil
 
 ![Résumé des droits](images/account-home.png)
