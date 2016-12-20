@@ -4,6 +4,10 @@ contentId: "doc-department-head"
 
 ---
 
+Le gestionnaire est le responsable d'un service, il a pour fonction la validation des demandes effectuées par les membres de son service mais aussi la supervision des sous-services si cela à été configuré.
+
+<!-- more -->
+
 Depuis la page d'accueil, le gestionnaire peut consulter le planning des prochains jours pour les membres de son service et le nombre de demande en attente d'approbation.
 
 ![Page d'accueil](images/manager-home.png)

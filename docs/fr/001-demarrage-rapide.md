@@ -4,13 +4,16 @@ contentId: "doc-quick-start"
 
 ---
 
-## Introduction à Gadael.com
+Cette documentation concerne uniquement le service SAAS hébergé sur gadael.com. Contrairement aux autres pages de la documentation, ce qui est expliqué sur cette page ne peut pas être réalisé en utilisant le logiciel open source gadael s'il a été installé par vous même sur votre propre serveur.
 
-Cette documentation concerne uniquement le service SAAS hébergé sur gadael.com. COntrairement aux autres pages de la documentation, ce qui est expliqué sur cette page ne peut pas être réalisé en utilisant le logiciel open source gadael s'il a été installé par vous même sur votre propre serveur.
+<!-- more -->
+
+## Introduction à Gadael.com
 
 Cette documentation décrit la création d'une application hébergée sur gadael.com et que vous pourrez pour votre entreprise ou association dans la limite imposée par l'abonnement choisis (le nombre d'utilisateurs autorisés sur l'application dépend de l'abonnement).
 
 Si vous gérez vous même votre propres serveur, il n'y a pas de limite dans le nombre d'utilisateurs actifs.
+
 
 
 ### Création d'un compte sur gadael.com

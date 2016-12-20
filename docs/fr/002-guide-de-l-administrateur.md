@@ -4,6 +4,10 @@ contentId: "doc-admin-guide"
 
 ---
 
+Les administrateurs sont les personnes qui pourrons accéder à toute la configuration. Cette documentation décrit la gestion des droits, des régimes, des agendas, des utilisateurs, des exports et la création des périodes d'absences à la place des utilisateurs.
+
+<!-- more -->
+
 ## Les utilisateurs
 
 ![Liste dess utilisateurs vue par l'administrateur](images/userlist-with-one-admin.png)
@@ -269,4 +273,3 @@ Lors de la création d'un agenda de rythme de travail, deux champs supplémentai
 * le nombre d'heures moyen d'une journée
 
 Ces paramètres sont utilisé pour convertir les heures en jours car les demandes d'absences sont effectées en heures mais les soldes de congés sont la pluspart du temps en jours, précis à la demi-journée.
-
