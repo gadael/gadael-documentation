@@ -73,7 +73,7 @@ getScreenshots()
 buildLanguage()
 {
     buildIndex ${1} > "docs/${1}/index.md"
-    #getScreenshots ${1}
+    getScreenshots ${1}
 }
 
 
