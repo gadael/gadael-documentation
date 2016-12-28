@@ -142,18 +142,18 @@ In this case it is possible that the initial quantity is not visible or can not 
 ![Amendment to annual leave with pay](images/right-edit-annual-leave.png)
 
 
-| Field Name | Home |
-| ----------------------------- | ------------------- ------ |
-| Type | Rights types allow grouping of rights by category when creating leave requests |
-| Default quantity | This is the initial quantity of each renewal |
-| Unity | The quantity can be in days or hours
+| Field Name                  | Home                    |
+|-----------------------------|-------------------------|
+| Type                        | Rights types allow grouping of rights by category when creating leave requests |
+| Default quantity            | This is the initial quantity of each renewal |
+| Unity                       | The quantity can be in days or hours
 | Quantity to be added every month | Required in the same unit as the default quantity, this field is used to define the amount automatically assigned on each first day of the month, for the entire renewal period. This addition will be made only for dates after the date of arrival in the company (user account field) |
-| Active for | Determines who can create absences. For example for a right of absences due to illness, or may leave only the administrator to create absences |
-| Automatic distribution | The quantity to be distributed on the rights will automatically be allocated on this right without exceeding the quantity available and respecting the order of types and rights, if another right exists above with this option checked the balance of this right will be used in Priority |
-| Require an Approval | This option disables approval. This can be used for declaring sickness absence, in conjunction with the "Active for" option. |
-| Use the default opening period | Unchecking this option extends the availability of the right based on the renewal start and end dates. |
-| Allow deposits on the time savings account | Check if this right can be saved.
-| Quantity consumed for part-time plans | This option allows the choice of the rule of consumption of the balance for the partial times, for more information consult the [documentation](006-temps-partiels.html).
+| Active for                  | Determines who can create absences. For example for a right of absences due to illness, or may leave only the administrator to create absences |
+| Automatic distribution      | The quantity to be distributed on the rights will automatically be allocated on this right without exceeding the quantity available and respecting the order of types and rights, if another right exists above with this option checked the balance of this right will be used in Priority |
+| Require an Approval         | This option disables approval. This can be used for declaring sickness absence, in conjunction with the "Active for" option. |
+| Use the default opening period | Unchecking this option extends the availability of the right based on the renewal start and end dates.                    |
+| Allow deposits on the time savings account | Check if this right can be saved. |
+| Quantity consumed for part-time plans | This option allows the choice of the rule of consumption of the balance for the partial times, for more information consult the [documentation](006-temps-partiels.html). |
 
 ### Renewals
 
@@ -179,10 +179,10 @@ Plan amendment form:
 
 When creating a regime, additional fields can be entered:
 
-| Field Name | Home |
-| ----------------------------- | ------------------- ----- |
+| Field Name                   | Home                   |
+|------------------------------|------------------------|
 | The percentage of attendance | This indication is to be given for part-time schemes |
-| Working days | Working days are used when calculating the number of days of RTT to be awarded |
+| Working days                 | Working days are used when calculating the number of days of RTT to be awarded |
 | Working days of the collective agreement agreement | The number of days worked in the year will be used for the calculation of the number of RTTs |
 
 
