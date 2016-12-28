@@ -4,7 +4,7 @@ ContentId: "doc-admin-guide"
 
 ---
 
-Administrators are the people who can access the entire configuration. This documentation describes the management of rights, regimes, agendas, users, exports and the creation of absences instead of users.
+Administrators are the people who can access the entire configuration. This documentation describes the management of rights, collections, calendars, users, exports and the creation of absences in place of users.
 
 <!-- more -->
 
@@ -18,19 +18,16 @@ Administrators are the people who can access the entire configuration. This docu
 
 ### The roles
 
-#### User account absences
+#### Absences user account
 
-Viewing a user, messages in red are the missing parameters of the configuration.
+Viewing a user, messages in red are the missing configuration parameters.
 
 ![Viewing a user](images/user-account-view.png)
 
-From the visualization sheet, it is possible to define the holiday regime,
-The pace of work and the public holidays in force.
+From the visualization sheet, it is possible to define the right collection, the work schedule and the applicable non-working days.
 The quantities per right granted to users may be modified for individual cases.
 
-For all these parameters, configurations must be made in the other menu if the proposed choices are insufficient.
-
-You can consult the article on [parameter planning](010-planning-of-parameters.html).
+For all these parameters, configurations must be made in the others menus if the proposed choices are insufficient. You can consult the article on [parameter planning](010-planning-of-parameters.html).
 
 
 
@@ -39,15 +36,15 @@ Changing a user with an "absences" account
 
 ![Modifying a user](images/user-account-edit.png)
 
-When the "User absences" box is checked, other options are visible on the form,
-And this causes additional buttons to appear on the visulisation plug.
+When the "Absences user account" box is checked, other options are visible on the form,
+And this causes additional buttons to appear on the user visulisation.
 
 Additional fields available for this role:
 
-* __Date of arrival__: This date is used by the application for the calculation of duties with addition to the balance every month. A standard plan can be associated with the user because the monthly balance additions will be effective only from that date.
-* __Start date__: This date is used to determine whether a seniority right is visible or not.
-* __User number SAGE__: This field is used only in the SAGE export, it allows to reconcile with the accounts of Sage pays during the monthly import of periods of absences.
-* __The notification options__: Sets the emails sent. The user can change these settings when connected.
+* __Date of arrival__: This date is used by the application for the calculation of rights with addition every month. A standard right collection can be associated with the user because the monthly additions will be effective only from that date.
+* __Seniority start date__: This date is used to determine whether a seniority right is visible or not.
+* __SAGE registration number__: This field is used only in the SAGE export, it allows combination with the Sage accounts during the monthly import of absences periods.
+* __The notification options__: Sets the default sent emails. The user can change these settings when connected.
 
 
 
