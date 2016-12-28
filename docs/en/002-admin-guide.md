@@ -51,81 +51,81 @@ Additional fields available for this role:
 
 #### Head of Service
 
-The role of the department head is to validate the requests for absences made by the members of his department.
+The role of the department head is to validate the absences requests made by the members of his department.
 
-A user may be responsible for several services, in which case he / she will have to approve requests from both services.
+A user may be responsible for several departments, in which case he/she will have to approve requests from both services.
 
-If a hierarchy of services is in place, approval will be at several levels. The service hierarchy is used only for approval of requests, so it is not necessary to set it up to represent the structure of the entity, it must be used to represent the struture of the desired approval. For example, if the human resources department must validate all absences, it must be placed at the top.
+If a hierarchy of services is in place, approval will be at several levels. The service hierarchy is used only for approval of requests, so it is not necessary to set it up to represent the structure of the entity, it must be used to represent the hierarchy of the desired approval. For example, if the human resources department must validate all absences, it must be at the top.
 
 
-Viewing a user account manager:
+Viewing a manager user account:
 
-![Visualization of a service manager](images/user-manager-view.png)
+![Visualization of a department manager](images/user-manager-view.png)
 
-Modification of a head of department:
+Modification of a manager user account:
 
-![Modification of a service manager](images/user-manager-edit.png)
+![Modification of a department manager](images/user-manager-edit.png)
 
-When editing, the mutiple "Services to Supervise Requests for Approval" selection field determines where the person is responsible.
+When editing, the mutiple "Departments to Supervise for Requests Approval" selection field determines where the person is responsible.
 
-The service field that is available to all users will be used to determine who is the approver of that person.
+The department field that is available to all users will be used to determine who is the approver of that person.
 
 
 
 #### Administrator
 
 The persons designated by the role are represented in the company by the human resources department.
-They will be able to manage absences and renewal periods
+They will be able to manage leaves and renewal periods.
 
 
-![Viewing an Administrator](images/user-admin-view.png)
+![Viewing an administrator](images/user-admin-view.png)
 
-Editing a User with Only the Administrator Role
+Editing a User with Only the administrator role
 
 ![Modifying an administrator](images/user-admin-edit.png)
 
 ## Types
 
-The rights types allow you to group absences between them.
+The rights types allow you to group absences rights between them.
 
 The list of default types:
 
 ![Types](images/typelist.png)
 
 
-Creating or modifying a type of right:
+Creating or modifying a right type:
 
 ![Types](images/type-edit.png)
 
 When creating a request, the user must distribute the requested days on these leave rights. In the list, the rights are grouped by type.
-The check box on the type allows you to change the default state of the rights of this type. Despite this option, all types can be folded and unfolded manually by the user. The option allows to hide by default the least important rights when there are many rights, for example, for recoveries, the number of rights depends on the number of requests for recoveries accepted beforehand.
+The check box on the type allow to change the default state of the rights in this type. Despite this option, all types can be folded and unfolded manually by the user. The option allows to hide by default the least important rights when there are many rights, for example, for recoveries, the number of rights depends on the number of requests for recoveries accepted beforehand.
 
 
 
 ## Rights
 
-A right is a set of rules for assigning days of leave, on each rights,
-One or more renewals can be created, they determine the allocation periods, at the beginning of each renewal, the balance is credited taking into account all the parameters of the right.
+A right is a set of rules for assigning leave days or hours, on each rights, one or more renewals can be created, they determine the allocation periods, at the beginning of each renewal, the balance is credited taking into account all the absence right parameters.
 
-Depending on the parameters of the right, it is possible that the user can have access to several renewals at the same time when wishes used are day credit.
+Depending on the right parameters, it is possible that the user have access to several renewals at the same time when he whant to use his rights credits.
 
-The list of rights:
+The absence rights list:
 
-![List of rights](images/rightlist.png)
+![rights list](images/rightlist.png)
 
-From the visualization of a right, several elements can be parameterized:
-* The amendment of the law
-* Manage list of rules (allows to define the conditions that authorize the use of the balance, for more details, see the [documentation](007-rules-of-rights.html))
-* Manage list of renewals
-* View the list of related leave schemes, Plan / entitlement associations have been in effect since a plan was amended.
+From the absence right visualization, several elements can be parameterized:
 
-![Visibility of Annual Paid Vacation Leave](images/right-view-annual-leave.png)
+* The modification of the absence right
+* Manage rules list (allows to define the conditions that authorize the use of the balance, for more details, see the [documentation](007-rules-of-rights.html))
+* Manage renewals list 
+* View the list of related rights collections, Absence rights associations with a collection are created on the collection modification form.
 
-
+![Annual Paid Leave visualisation](images/right-view-annual-leave.png)
 
 
 
-### Creating a right
+
+
+### Absence right creation
 
 TODO: screen for creating special rights
 
@@ -136,52 +136,50 @@ In this case it is possible that the initial quantity is not visible or can not 
 
 ### Right Options
 
-![Amendment to annual leave with pay](images/right-edit-annual-leave.png)
+![Annual leave modification](images/right-edit-annual-leave.png)
 
 
 | Field Name                  | Home                    |
 |-----------------------------|-------------------------|
-| Type                        | Rights types allow grouping of rights by category when creating leave requests |
-| Default quantity            | This is the initial quantity of each renewal |
-| Unity                       | The quantity can be in days or hours
-| Quantity to be added every month | Required in the same unit as the default quantity, this field is used to define the amount automatically assigned on each first day of the month, for the entire renewal period. This addition will be made only for dates after the date of arrival in the company (user account field) |
-| Active for                  | Determines who can create absences. For example for a right of absences due to illness, or may leave only the administrator to create absences |
-| Automatic distribution      | The quantity to be distributed on the rights will automatically be allocated on this right without exceeding the quantity available and respecting the order of types and rights, if another right exists above with this option checked the balance of this right will be used in Priority |
-| Require an Approval         | This option disables approval. This can be used for declaring sickness absence, in conjunction with the "Active for" option. |
-| Use the default opening period | Unchecking this option extends the availability of the right based on the renewal start and end dates.                    |
-| Allow deposits on the time savings account | Check if this right can be saved. |
-| Quantity consumed for part-time plans | This option allows the choice of the rule of consumption of the balance for the partial times, for more information consult the [documentation](006-temps-partiels.html). |
+| Type                        | Rights types allow absence rights grouping by category when creating leave requests |
+| Default quantity            | This is the initial quantity of each renewals |
+| Unit                        | The quantity can be in days or hours
+| Quantity added every month  | Required in the same unit as the default quantity, this field is used to define the amount automatically assigned on each first day of the month, for the entire renewal period. This addition will be made only for dates after the date of arrival in the company (user account field) |
+| Active for                  | Determines who can create leave requests. For example for a illness absence right, you may set the administrators only as possible author |
+| Automatic distribution      | The quantity to be distributed on the rights will automatically be allocated on this right without exceeding the quantity available and respecting the types and rights order, if another right exists above with this option checked the balance of this right will be used in priority |
+| Require an Approval         | This option enable or disable approval. This can be used for declaring sickness absence right, in conjunction with the "Active for" option. |
+| Use the default opening period | Unchecking this option extends the availability of the right based on the renewal start and end dates. |
+| Allow deposits on the time savings account | Check if this right can be saved to a time saving account. |
+| Quantity consumed for part-time work schedule | This option allows the choice of the consumption rule for part-time workschedules, for more information consult the [documentation](006-parts-times.html). |
 
 ### Renewals
 
-From the right visualization sheet, you must add renewals so that the right can be accessed. All rights rules are based on renewal periods.
+From the right visualization page, you must add renewals so that the right can be accessible. All rights rules are based on renewal periods.
 
 
-## Diets
+## Absence rights collections
 
-A leave plan is a set of rights that can be associated with users.
+A collection is a set of absence rights that can be associated with users.
 
-A certain number of regimes are initialized during the installation of the application,
-This list depends on the country of use.
+A number of collections are initialized during the installation of the application, this list depends on the selected country. New collections can be created if necessary.
 
-New plans can be created in the case of a special leave plan.
+The collections list:
 
-The list of schemes:
+![collections list](images/collectionlist.png)
 
-![Diets](images/collectionlist.png)
+Edit form:
 
-Plan amendment form:
+![Changing a collection](images/collection-edit.png)
 
-![Changing a scheme](images/collection-edit.png)
-
-When creating a regime, additional fields can be entered:
+When creating a right collection, additional fields can be set:
 
 | Field Name                   | Home                   |
 |------------------------------|------------------------|
-| The percentage of attendance | This indication is to be given for part-time schemes |
-| Working days                 | Working days are used when calculating the number of days of RTT to be awarded |
-| Working days of the collective agreement agreement | The number of days worked in the year will be used for the calculation of the number of RTTs |
+| The attendance percentage    | This indication is for part-time work-schedules |
+| Working days                 | Working days are used when calculating the RTT number of days to be awarded |
+| Working days of the collective agreement | The number of days worked in the year will be used for the calculation of the number of RTTs |
 
+Note: RTT is a french specific right, this is a compensation if the work schedule is beyond 35H.
 
 ## Requests
 
