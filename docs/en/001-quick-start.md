@@ -55,7 +55,7 @@ The maintenance mode allows users to consult their rights but does not allow the
 
 When creating your application, an administrator account will be created automatically with the same username and password as your gadael.com account, so you can use this account to access your application and create other administrator accounts.
 
-To create accounts for your users, you can use the "administration > users" menu. It is necessary to assign the role "absences  account" so that the account can be attached to a leave right collection, for more information on the roles, you can consult [the administrator's documentation](002-guide-of-administrator.html).
+To create accounts for your users, you can use the "administration > users" menu. It is necessary to assign the role "absences  account" so that the account can be attached to a leave right collection, for more information on the roles, you can consult [the administrator's documentation](002-admin-guide.html).
 
 ### Log in as user
 
