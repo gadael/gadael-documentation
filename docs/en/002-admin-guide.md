@@ -187,33 +187,27 @@ Different types of requests can be created by users and administrators.
 
 ### Leave requests
 
-An absence request may be a leave request created by a user or an absence declared by an administrator
-Such as sick leave.
+An absence request may be a leave request created by a user or an absence declared by an administrator such as sick leave.
 
-Special case: The imposed leaves are also requests of absence created by the administrators. The
-Only difference is that only the imposed holiday interface can be used for modification
-Of this type of request. Despite this, they appear in the list of requests for both the user
-And the administrator.
+Special case: The mandatory leaves are also absence requests created by the administrators. The only difference is that only the mandatory leave form can be used for modification of this type of request. Despite this, they appear in the requests list for both the user and the administrator.
 
 ### Work Days Recovery Requests
 
 ### Deposit to the time savings account
 
-## Leave of absence
+## Mandatory leave
 
-Imposed leaves are created by administrators to assign the same period of absence to a given population of users.
-
-It is a tool that allows to create periods of absence on several users at the same time with the following characteristics:
+Mandatory leaves are created by administrators to assign the same absence period to a given users population. It is a tool that allows to create absence periods on several users at the same time with the following characteristics:
 
 * Absences are already validated (no approval circuit)
-* Only one leave entitlement is used per period.
+* Only one absence right is used per period.
 
-The quantity consumed per user may vary depending on the work schedule.
+The consumed quantity per user may vary depending on the work schedule.
 
 
 ## Exports
 
-![Exports possible](images/exports.png)
+![Possible exports](images/exports.png)
 
 ### Excel
 
@@ -221,15 +215,15 @@ There are two possible export types in excel format:
 
 #### exporting requests
 
-Exports one line per absence request. Applications must be included or straddling the period entered on the export form.
+Exports one line per absence request. Requests must be included or straddling the export form entered period.
 
-![Exports possible](images/export-edit-xlsx.png)
+![xlsx exports](images/export-edit-xlsx.png)
 
 #### exporting balances
 
-Exports one line per user and per right with an absence account.
+Exports one line per right and per user with an absence account.
 
-The export form allows you to select a date. The quantities indicated in the various columns of the export correspond to the status of the application at the requested date.
+The export form allows you to select a date. The quantities indicated in the various exported columns correspond to the request status at the requested date.
 
 
 
