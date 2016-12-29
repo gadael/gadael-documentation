@@ -230,7 +230,7 @@ Exporte une ligne par demande d'absence. Les demandes doivent être incluses ou 
 
 #### l'export des soldes
 
-Exporte une ligne par utilisateur et par droit avec un compte absence.
+Exporte une ligne par droit et par utilisateur avec un compte absence.
 
 Le formulaire d'export permet de sélectionner une date. les quantité indiqués dans les différentes colonnes de l'export corespondrons à l'état de l'application à la date demandée.
 
