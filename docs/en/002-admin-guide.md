@@ -229,41 +229,41 @@ The export form allows you to select a date. The quantities indicated in the var
 
 ### Sage
 
-Exporting to the SAGE format allows you to import a file into payroll wage to complete the monthly pay slips with the holiday periods taken on the paid holidays type.
+Exporting to the SAGE format allows you to import a file into payroll wage to complete the monthly pay slips with the annual paid leave periods.
 
-![Exports possible](images/export-edit-sage.png)
+![Sage export](images/export-edit-sage.png)
 
 
 
-## The Agendas
+## The Calendars
 
-### List of calendars
+### Calendars list 
 
-![List of available agandas by default](images/calendarlist.png)
+![default List of available calendars](images/calendarlist.png)
 
-The administrator can set from this list a calendar set that can be used later on user accounts. The agendas are of 3 possible types:
+The administrator can modify this list a calendar that can be used later on user accounts. The calendars are of 3 possibles types:
 
-* Holiday calendar
-* Work Time Schedule
-* Schedule of school holidays
+* Non-working days
+* Working Time schedule
+* School holidays
 
-### Additions / Changes to calendars
+### Calendars creations or modifications
 
-Example, modification of a work rhythm calendar present in the list provided initially:
+Example, modification of a work schedule calendar present in the default list:
 
-![Editing a calendar](images/calendar-edit-5d-40h.png)
+![calendar modification](images/calendar-edit-5d-40h.png)
 
-To expand the list of default calendars, use the [icalendar](https://en.wikipedia.org/wiki/ICalendar) format and have a server to host ICS files so that they can be accessed on the Internet.
+To expand the list of default calendars, you can use the [icalendar](https://en.wikipedia.org/wiki/ICalendar) format and have a server to host ICS files so that they can be accessibles on the Internet.
 
-The [icalendar](https://en.wikipedia.org/wiki/ICalendar) format allows you to create calendars that contain complex repetition rules that allow you to meet all your requirements for the specification of your working rhythms .
+The [icalendar](https://en.wikipedia.org/wiki/ICalendar) format allows you to create calendars that contain complex repetition rules that allow you to meet all your requirements for your work schedule specification.
 
-You can use ICS files created from the google calendar using the [google calendar sharing feature](https://support.google.com/calendar/answer/37083). More information is available in the google help in the chapter "Share a link to your calendar using the calendar address", Gadael will be able to interpret your shared calendar in the same way as Make it outlook or another calendar application.
+You can use ICS files created from google calendar using the [google calendar sharing feature](https://support.google.com/calendar/answer/37083). More information is available from google help in the chapter "Share a link to your calendar using the calendar address", Gadael will be able to interpret your shared calendar in the same way as outlook or another calendar application.
 
-When creating a work rhythm calendar, two additional fields are visible:
+When creating a work schedule calendar, two additional fields are visible:
 
 * Half-day time
 * The average number of hours per day
 
-These parameters are used to convert the hours into days because the requests for absences are made in hours but the leave balances are most of the time in days, accurate to half a day.
+These parameters are used to convert the hours in days because the absences requests are created in hours but the leave balances are most of the time in days, accurate to half a day.
 
 
