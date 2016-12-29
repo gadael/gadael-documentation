@@ -4,7 +4,7 @@ contentId: "doc-department-head"
 
 ---
 
-Le gestionnaire est le responsable d'un service, il a pour fonction la validation des demandes effectuées par les membres de son service mais aussi la supervision des sous-services si cela à été configuré.
+Le gestionnaire est le responsable d'un service, il a pour fonction la validation des demandes effectuées par les membres de son service mais aussi la supervision des sous-services si cela a été configuré.
 
 <!-- more -->
 
@@ -27,9 +27,9 @@ Sur la liste des demandes en attente, les demandes sont groupées par utilisateu
 
 ## l'approbation
 
-L'approbation des demandes suit la hiérarchie des services, chaque responsable de service doit approuver les demandes des membres de son service mais aussi la deuxième étape de l'approbation pour les membres des sous services.
+L'approbation des demandes suit la hiérarchie des services, chaque responsable de service doit approuver les demandes des membres de son service mais aussi la deuxième étape de l'approbation pour les membres des sous-services.
 
-Il est possible que le service administré ne contient aucun membre, dans ce cas il n'y a pas de planning sur la page d'accueil mais le responsable doit quand même assumer l'approbation des demandes provenant des sous services.
+Il est possible que le service administré ne contienne aucun membre, dans ce cas il n'y a pas de planning sur la page d'accueil mais le responsable doit quand même assumer l'approbation des demandes provenant des sous-services.
 
 
 ## Les notifications
