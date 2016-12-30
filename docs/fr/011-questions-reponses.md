@@ -7,6 +7,22 @@ contentId: "doc-faq"
 
 ## Utilisation du service
 
+### Comment connaitre quels sont les droits qui serons visibles lors d'une demande de congés?
+
+L'administrateur peut renseigner dans la description du droit un texte d'information qui sera visible par l'utilisateur sur la fiche du droit dans la rubrique "Utilisateur > Mes droits". La liste des règles est visible par l'utilisateur, là aussi une règle est représenté par son titre, l'administrateur devra renseigner explicitement la règle utilisée.
+
+### Comment utiliser un compte épargne temps?
+
+Le compte épargne temps est un droit spécifique qui contient toujours une quantité initiale à zéro, contrairement aux autre droit il peut être crédité à partir des demandes de versement sur le compte épargne temps. En dehors de cette spécificité, le compte épargne temps se comporte comme les autres droits, il est soumis aux règles d'utilisation paramétrées par l'administrateur. En tant qu'utilisateur, les règles peuvent être consultées depuis la page "Utilisateur > Mes droits".
+
+
+### Comment utiliser les soldes négatifs?
+
+Les droits avec soldes négatifs autoriés s'utilisent comme les autres droits, il n'y aurra pas de bloquage lorsque la quantité demandée ne sera pas disponible, les indiquateurs affichant la quantité disponible dans l'application afficherons une quantité négative qui correspondra à la quantité consommée si le solde initial est zéro.
+
+Cela peut être utilisé pour la déclaration d'absence maladie, les congés sans solde, ou bien les jours de formation.
+
+
 ### Comment paramétrer les jours fériés?
 
 Des agendas de jours fériés peuvent êtres ajoutés par l'administrateur depuis la rubrique agenda. Pour chaque utilisateur, il faudra paramétrer la planification de l'agenda depuis sa fiche utilisateur. Pour cela vous pouvez consulter l'article sur la [planification des paramètres](010-planification-des-parametres.html#choix-de-lagenda-des-jours-fériés)
