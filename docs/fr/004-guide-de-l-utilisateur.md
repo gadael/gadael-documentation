@@ -89,11 +89,11 @@ Lors de la deuxième étape, le tableau affiché contient tous les droits qui pe
 
 Si un droit est affiché avec un solde à zéro, c'est que les soldes négatifs sont autorisés, cela peut être le cas pour les congés sans solde par exemple.
 
-TODO: ajouter des liens vers la FAQ
+Pour aller plus loin :
 
-comment connaître les règles d'affichage dans cette liste?
-comment utiliser mon compte épargne temps?
-comment utiliser les soldes négatifs?
+* [Comment connaitre quels sont les droits qui serons visibles lors d'une demande de congés?](011-questions-reponses.html#comment-connaitre-quels-sont-les-droits-qui-serons-visibles-lors-dune-demande-de-congés)
+* [Comment utiliser un compte épargne temps?](011-questions-reponses.html#comment-utiliser-un-compte-épargne-temps)
+* [Comment utiliser les soldes négatifs?](011-questions-reponses.html#comment-utiliser-les-soldes-négatifs)
 
 
 
