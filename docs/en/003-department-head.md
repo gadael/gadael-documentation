@@ -6,7 +6,7 @@ contentId: "doc-department-head"
 
 The manger (department head) is the person in charge of a department, whose function is the validation of the requests made by the department members but also the supervision of the sub-departments if this has been configured.
 
-<! - more ->
+<!-- more -->
 
 From the home page, the manager can view the schedule of the next days for the department members and the number of awaiting requests.
 
