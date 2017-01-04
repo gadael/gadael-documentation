@@ -6,7 +6,7 @@ contentId: "doc-user-guide"
 
 This documentation describes the role of the user. He can create leave requests, view his absence rights balance, make time saving account deposits or retrieve working time in the form of recovery absence right.
 
-<! - more ->
+<!-- more -->
 
 
 ## The home page
