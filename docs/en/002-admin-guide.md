@@ -1,4 +1,4 @@
-Title: "Administrator's Guide"
+Title: "Administrator''s Guide"
 Layout: "doc"
 ContentId: "doc-admin-guide"
 
@@ -116,7 +116,7 @@ From the absence right visualization, several elements can be parameterized:
 
 * The modification of the absence right
 * Manage rules list (allows to define the conditions that authorize the use of the balance, for more details, see the [documentation](007-rules-of-rights.html))
-* Manage renewals list 
+* Manage renewals list
 * View the list of related rights collections, Absence rights associations with a collection are created on the collection modification form.
 
 ![Annual Paid Leave visualisation](images/right-view-annual-leave.png)
@@ -237,7 +237,7 @@ Exporting to the SAGE format allows you to import a file into payroll wage to co
 
 ## The Calendars
 
-### Calendars list 
+### Calendars list
 
 ![default List of available calendars](images/calendarlist.png)
 
@@ -265,5 +265,3 @@ When creating a work schedule calendar, two additional fields are visible:
 * The average number of hours per day
 
 These parameters are used to convert the hours in days because the absences requests are created in hours but the leave balances are most of the time in days, accurate to half a day.
-
-
