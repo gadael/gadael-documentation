@@ -1,4 +1,4 @@
-title: "Administrator's Guide"
+title: "Administrator Guide"
 Layout: "doc"
 ContentId: "doc-admin-guide"
 
