@@ -1,6 +1,6 @@
-title: "Administrator Guide"
-Layout: "doc"
-ContentId: "doc-admin-guide"
+title: "Administrator's Guide"
+layout: "doc"
+contentId: "doc-admin-guide"
 
 ---
 
