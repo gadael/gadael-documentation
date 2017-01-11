@@ -5,28 +5,24 @@ contentId: "doc-planning-parameters"
 ---
 
 
-This guide is intended for administrators to plan entitlements.
+This guide is intended for administrators to plan leave rights.
 
 <!-- more -->
 
 ## Arrival in the company
 
-### The date of arrival
+### The arrival date
 
-The date of arrival in the company can be recorded on the user's card.
+The arrival date in the company can be set on the user's edit form.
 
 This date is used to:
 
-* Ignore Renewals of vacation entitlements completed prior to the user's arrival.
-* Ingorate the amount adjustment recorded before the arrival date.
+* Ignore leave rights renewals completed prior to the user's arrival.
+* Ingore the adjustments recorded before the arrival date.
 
-For example, for fixed - term contracts, it is possible to use a right
-Paid with a monthly increment of the automatic quantity the first
-The day of the month. In this case, the monthly adjustments of the months preceding the date of arrival
-Will be ignored.
+For example, for fixed-term contracts, it is possible to use a paid leave right with an automatic quantity monthly increment the first day of the month. In this case, the monthly adjustments of the months preceding the arrival date will be ignored.
 
-This parameter varies the initial quantity of the duty distinctly for each
-user.
+This parameter varies the initial quantity of the leave right distinctly for each user.
 
 The arrival date can be modified on the user's form:
 
@@ -34,20 +30,17 @@ The arrival date can be modified on the user's form:
 
 
 
-### Setting the start date of the regime
+### Setting the start date of the right collection
 
-You can access plan planning from the viewing form.
+You can access right collection planning from the viewing page.
 
-Upon arrival of the user, it is necessary to create a line containing his regime
-And only the start date for the allocation period.
+Upon arrival of the user, it is necessary to create a line containing his right collection and only the start date of the allocation period.
 
-![Modify a user] (images/user-account-collections.png)
+![Modify a user](images/user-account-collections.png)
 
-The plan fee will be available from this date.
+The rights collection will be available from this date.
 
-The end date will be useful only if it is desirable to define in advance a date
-Or the rights of the plan must no longer be available. This can
-To disable the user on a specific date.
+The end date will be useful only if it is desirable to define a date in advance or if the rights must no longer be available. This can be used to disable the user on a specific date.
 
 
 ### Changing the quantity
@@ -56,45 +49,41 @@ For rights credited per month or working days, the initial quantity must be chan
 
 For the rights credited per renewal period, the initial quantity parameterized on the right will be allocated therefore it is not necessary to make modifications.
 
-From the user's record, click on the plan to change the quantities:
+From the user's record, click on the collection to change the quantities:
 
 ![Modify a user](images/user-account-renewalquantity.png)
 
-The registration of form will create adjustments on the rights concerned.
+Saving the form will create adjustments on the concerned rights.
 
-Adjustments can be viewed or added individually to the form
-Of the right for the user, this screen is accessible from the visualization sheet, in the table "Absence rights":
+Adjustments can be viewed or added individually to the right page for the user only, this screen is accessible from the visualization sheet, in the list named "Absence rights":
 
 ![Modify a user](images/user-account-annual-leave.png)
 
 
-## Change of plan
+## Change of rights collection
 
-In the case of a change of regime, an end date must be set on the date range of the first regime and a new date range must be added for the new regime.
+In the case of a collection modification, an end date must be set on the date range of the first collection and a new date range must be added for the new collection.
 
 The end date of the new date range is not mandatory.
 
-When several regimes are associated with the user, the modification screen
-Quantities on renewals may be used to define the quantities
-On schemes which are not yet in force. Arrows are available next to the diet name to navigate to the next or previous diets.
+When several collection are associated with the user, the modification screen for quantities on renewals may be used to define the quantities on collections which are not yet available. Arrows are available next to the collection name to navigate to the next or previous collection.
 
-## Changing work rhythm
+## Changing work schedule
 
-The work schedule schedule can be accessed from the user's viewing form:
+The work schedule planning can be accessed from the user's viewing page:
 
 ![Modify a user](images/user-account-schedulecalendars.png)
 
-The list of calendars that can be used on this page can be modified by the administrator from the "calendars" topic.
+The list of calendars used on this page can be modified by the administrator from the "calendars" menu.
 
-## Choice of holiday calendar
+## Choice of non-working days calendar
 
-The holiday scheduling screen is accessible from the user's viewing form:
+The non-working days scheduling screen is accessible from the user's viewing page:
 
 ![Modify a user](images/user-account-nwdayscalendars.png)
 
-This screen may be used in the case of a change of
-Case it will be necessary to modify the planning for all the users to switch to the new calendar of the holidays.
+This screen may be used in the case of a change of law, in this case it will be necessary to modify the planning for all the users to switch to the new calendar of the holidays on a planned date.
 
-In case the user is going to work in another country with different days only his / her card will have to be modified.
+In case the user is going to work in another country with different non working days only his / her card will have to be modified.
 
 The list of calendars that can be used on this page can be modified by the administrator from the "calendars" topic.
