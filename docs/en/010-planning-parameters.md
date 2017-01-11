@@ -86,4 +86,4 @@ This screen may be used in the case of a change of law, in this case it will be 
 
 In case the user is going to work in another country with different non working days only his / her card will have to be modified.
 
-The list of calendars that can be used on this page can be modified by the administrator from the "calendars" topic.
+The list of calendars that can be used on this page can be modified by the administrator from the "calendars" menu.
