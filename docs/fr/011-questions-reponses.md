@@ -43,7 +43,9 @@ Les différents rythmes de travail proposés par défaut sont disponibles en exe
 
 ### Comment mettre en place la diminution du solde des RTT en fonction des arrêts maladie?
 
-TODO
+Il faut paramétrer cela dans le droit RTT, dans l'encadré intitulé "Quantité du droit fournie a chaque renouvellement" une case a cocher permet de faire appraitre des options pour la diminution automatique du solde.
+
+La modification du solde peut se faire par paliers, par example une diminution de 1 jour de RTT pour 5 jours d'arret maladie. La comptabilisation des arret maladie sera effectuée à partir des types de droits sélectionnés dans le formulaire.
 
 ### Comment approvisionner le nouveau solde du droit au début d'une nouvelle période?
 
@@ -62,7 +64,7 @@ Il faut utiliser la fonctionnalité "Congés imposés" du menu administrateur. V
 
 ### Ou télécharger le code source? contribuer au développement?
 
-Le code ainsi que la documentation sont disponibles sur [github](https://github.com/gadael/). Toutes les contributions sont ls bienvenues.
+Le code ainsi que la documentation sont disponibles sur [github](https://github.com/gadael/). Toutes les contributions sont les bienvenues.
 
 ### Quels sont les prérequis matériels?
 
