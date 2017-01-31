@@ -8,7 +8,7 @@ Ce guide est destinés aux administrateurs pour planifier les attributions de dr
 
 <!-- more -->
 
-## Arrivée dans l'enreprise
+## Arrivée dans l'entreprise
 
 ### La date d'arrivée
 
