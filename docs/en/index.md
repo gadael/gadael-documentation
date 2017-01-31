@@ -5,6 +5,7 @@ layout: docindex
 
 
 * [Quick start](001-quick-start.html)
+* [Administrator's Guide](002-admin-guide.html)
 * [Manager guide](003-department-head.html)
 * [User guide](004-user-guide.html)
 * [Rights order](005-rights-order.html)
