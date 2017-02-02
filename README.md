@@ -1,9 +1,10 @@
 # gadael-documentation
 
+The documentation is available online at https://www.gadael.com/
+
 Markdown documentation with mutiple versions generated from git tags or branchs
 
-Link beetween files from differents languages will be created from the first
-3 characters of the filenames.
+Link between files from differents languages using the contentId attribute.
 
 ## Build screenshots and indexes
 
