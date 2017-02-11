@@ -4,6 +4,10 @@ contentId: "doc-mobile-device-usage"
 
 ---
 
+Gadael est compatible avec tous les périphériques, c'est une application web progressive. 
+
+<!-- more -->
+
 ## Responsive design
 
 L'application a été conçue pour être utilisée sur tous types d'écrans dans sa totalité, vous pouvez utiliser votre navigateur internet pour accéder à l'application.
