@@ -1,4 +1,4 @@
-title: "Demarrage rapide"
+title: "Démarrage rapide"
 layout: "doc"
 contentId: "doc-quick-start"
 
