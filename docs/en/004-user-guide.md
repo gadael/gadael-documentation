@@ -87,13 +87,12 @@ On the first step, the period is selected on a schedule containing the worked pe
 
 In the second step, the displayed table contains all the rights that can be used for the requested period. It is possible to a right to be displayed with several renewal periods, in this case it is advisable to consume the oldest balance because it will be brought to disappear sooner.
 
-If a right is displayed with a less than zero balance, negative balances are allowed, this can be the case for leave without pay for example.
+A right can be displayed with infinite balance, this can be the case for leave without pay for example.
 
 Further reading :
 
 * [How to know what rights will be visible during a leave request?](011-faq.html#)
-* [How to use a time saving account?](011-faq.html#)
-* [How to use negative balances?](011-faq.html#)
+* [How to use a time saving account?](011-faq.html#/How-to-use-a-time-savings-account)
 
 
 

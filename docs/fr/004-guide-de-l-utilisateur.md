@@ -4,7 +4,7 @@ contentId: "doc-user-guide"
 
 ---
 
-Cette documentation décrit le rôle de l'utilisateur. Il peut créer des demandes de congés, consulter le solde des droits, effectuer des dépôts sur le compte épargne temps ou récupérer du temps de travail sous la forme de droits de congés.
+Cette documentation décrit le rôle de l'utilisateur. Il peut créer des demandes de congés, consulter le solde des droits, effectuer des dépôts sur le compte épargne temps ou récupérer du temps de travail sous la forme de droits de congé.
 
 <!-- more -->
 
@@ -13,7 +13,7 @@ Cette documentation décrit le rôle de l'utilisateur. Il peut créer des demand
 
 ![Résumé des droits](images/account-home.png)
 
-Sur la page d'accueil, un résumé des droits disponible est affiché, suivi de la liste des membres de mon service avec un planning des disponiblité sur les prochains jours.
+Sur la page d'accueil, un résumé des droits disponibles est affiché, suivi de la liste des membres de mon service avec un planning des disponiblités sur les prochains jours.
 
 
 ## La liste des demandes
@@ -21,14 +21,14 @@ Sur la page d'accueil, un résumé des droits disponible est affiché, suivi de 
 
 ![Résumé des droits](images/account-requests.png)
 
-Depuis la liste des demandes, vous pourrez surveiller l'avancement de l'approbations des des demandes déjà crées.
+Depuis la liste des demandes, vous pourrez surveiller l'avancement de l'approbation des demandes déjà crées.
 
 ## L'agenda
 
 L'agenda personel permet de visualiser :
 
 * Les absences
-* les périodes de travail donnant droit a récupération
+* les périodes de travail donnant droit à récupération
 * les jours fériés
 
 ![mon agenda](images/account-calendar.png)
@@ -44,13 +44,13 @@ Le paramétrage de cette fonctionnalité s'effectue depuis le menu utilisateur >
 
 ![mes droits](images/account-rights.png)
 
-La liste de mes droits permet de visualiser les règles d'utilisation de chaque droit qui me sont attribuées.
+La liste de mes droits permet de visualiser les règles d'utilisation de tous les droits qui me sont attribuées.
 
 Pour visualiser le détail des renouvellements, il faut cliquer sur le nom du droit.
 
 Cette page permet de consulter les éventuels ajustements manuels effectués par les gestionnaires, cela peut être le cas lors d'une arrivée dans l'entreprise en cours de période.
 
-L'historique des ajustements peut aussi contenir des ajouts mensuels automatiques de solde pour les droits qui doivent dont la quantité est acquise au fur et à mesure des jours travaillés.
+L'historique des ajustements peut aussi contenir des ajouts mensuels automatiques de solde pour les droits dont la quantité est acquise au fur et à mesure des jours travaillés.
 
 Des diminutions automatiques de solde peuvent se produire et seront visibles sur cette page, par exemple les diminutions de RTT en fonction des arrêts maladie.
 
@@ -59,15 +59,15 @@ Des diminutions automatiques de solde peuvent se produire et seront visibles sur
 
 ## La liste des demandes
 
-Les demandes sont ordonnées par la date de création, les demandes les plus récentes apparaissent en premier. Plusieurs types de demandes peuvent apparaitres dans cette liste :
+Les demandes sont ordonnées par la date de création, les demandes les plus récentes apparaissent en premier. Plusieurs types de demandes peuvent apparaitre dans cette liste :
 
 * Les absences
 * Les dépôts sur le compte épargne temps
 * Les demandes de récupération
 
-Parmi les absences affichées, il peut y avoir des demandes de congés créés par vous, des absences imposées créées par les gestionnaires sur un ensemble de personnes ou des absences créées par les gestionnaires uniquement sur votre compte (ce type d'absence peut être traitée par une approbation).
+Parmi les absences affichées, il peut y avoir des demandes de congés créés par vous, des absences imposées créées par les gestionnaires sur un ensemble de personnes ou des absences créées par les gestionnaires uniquement sur votre compte (ce type d'absence peut être traité par une approbation).
 
-## Créer une demande congés
+## Créer une demande de congés
 
 Une demande de congés se crée en deux étapes.
 
@@ -85,15 +85,14 @@ Sur la première étape, la période est sélectionnée sur un planning contenan
 
 ### Répartition de la durée sur les droits de congés
 
-Lors de la deuxième étape, le tableau affiché contient tous les droits qui peuvent être utilisés pour la période demandée. Il est possible d'un droit soit affiché avec plusieurs périodes de renouvellement, dans ce cas il est conseillé de consommer le solde le plus ancien car il sera amené à disparaitre plus tôt.
+Lors de la deuxième étape, le tableau affiché contient tous les droits qui peuvent être utilisés pour la période demandée. Il est possible qu'un droit soit affiché avec plusieurs périodes de renouvellement, dans ce cas il est conseillé de consommer le solde le plus ancien car il sera amené à disparaitre plus tôt.
 
-Si un droit est affiché avec un solde à zéro, c'est que les soldes négatifs sont autorisés, cela peut être le cas pour les congés sans solde par exemple.
+Un droit est affiché avec un solde infini, cela peut être le cas pour les congés sans solde par exemple.
 
 Pour aller plus loin :
 
-* [Comment connaitre quels sont les droits qui serons visibles lors d'une demande de congés?](011-questions-reponses.html#Comment-connaitre-quels-sont-les-droits-qui-serons-visibles-lors-d%E2%80%99une-demande-de-conges)
+* [Comment connaitre quels sont les droits qui seront visibles lors d'une demande de congés?](011-questions-reponses.html#Comment-connaitre-quels-sont-les-droits-qui-serons-visibles-lors-d%E2%80%99une-demande-de-conges)
 * [Comment utiliser un compte épargne temps?](011-questions-reponses.html#Comment-utiliser-un-compte-epargne-temps)
-* [Comment utiliser les soldes négatifs?](011-questions-reponses.html#Comment-utiliser-les-soldes-negatifs)
 
 
 
@@ -114,14 +113,14 @@ La quantité de congés récupérés dépendra du choix effectué dans la liste 
 
 ## Créer un dépôt sur le compte épargne temps
 
-Pour que cette fonctionnalité soit accessible, il faut qu'un droit de compte épargen temps soit actif pour votre compte. Seul un administrateur pourra activer un compte épargne temps pour les utilisateurs.
+Pour que cette fonctionnalité soit accessible, il faut qu'un droit de compte épargne temps soit actif pour votre compte. Seul un administrateur pourra activer un compte épargne temps pour les utilisateurs.
 
-Les comptes épargne temps sont des droits de congés avec une durée d'utilisation plus longue que les périodes de renouvellement des congés payés classiques. Ils permettent d'épargner ces congés non utilisés pour une utilisation ultérieure.
+Les comptes épargne temps sont des droits de congés avec une durée d'utilisation plus longue que les périodes de renouvellement des congés payés classiques. Ils permettent d'épargner ces congés non consommés pour une utilisation ultérieure.
 
 Pour consulter les règles d'utilisation de votre compte épargne temps, vous pouvez utiliser le menu "Mes droits".
 
 ![épargner du temps](images/account-time-saving-deposit-create.png)
 
-Les dépôts sur le compte épargne temps devrois être validée par les chefs de services selon le même procédé que les autres types de demande.
+Les dépôts sur le compte épargne temps devront être validés par les chefs de services selon le même procédé que les autres types de demande.
 
-La quantité incluse dans les demandes de dépôts sur le compte épargne temps en attente d'approbation n'est plus utilisable dans demandes de congés. Seul un refus de la demande permettra de récupérer cette quantité pour une utilisation normale.
+La quantité incluse dans les demandes de dépôts sur le compte épargne temps en attente d'approbation n'est plus utilisable dans les demandes de congés. Seul un refus de la demande permettra de récupérer cette quantité pour une utilisation normale.

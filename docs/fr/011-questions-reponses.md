@@ -16,12 +16,6 @@ L'administrateur peut renseigner dans la description du droit un texte d'informa
 Le compte épargne temps est un droit spécifique qui contient toujours une quantité initiale à zéro, contrairement aux autre droit il peut être crédité à partir des demandes de versement sur le compte épargne temps. En dehors de cette spécificité, le compte épargne temps se comporte comme les autres droits, il est soumis aux règles d'utilisation paramétrées par l'administrateur. En tant qu'utilisateur, les règles peuvent être consultées depuis la page "Utilisateur > Mes droits".
 
 
-### Comment utiliser les soldes négatifs?
-
-Les droits avec soldes négatifs autoriés s'utilisent comme les autres droits, il n'y aurra pas de bloquage lorsque la quantité demandée ne sera pas disponible, les indiquateurs affichant la quantité disponible dans l'application afficherons une quantité négative qui correspondra à la quantité consommée si le solde initial est zéro.
-
-Cela peut être utilisé pour la déclaration d'absence maladie, les congés sans solde, ou bien les jours de formation.
-
 
 ### Comment paramétrer les jours fériés?
 
