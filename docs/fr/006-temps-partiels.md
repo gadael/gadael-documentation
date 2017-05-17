@@ -53,11 +53,14 @@ jours ouvrés non travaillés par le personnel à temps partiel sont comptabilis
 
 Paramètre du régime :
 
-Cocher les jours ouvrés associés au régime
+Cocher les jours ouvrés associés au régime, le pourcentage de présence peut être renseigné mais ne sera pas utilisé dans le calcul de consommation.
 
 Paramètre du droit :
 
 Indiquer le type de consommation "Consommer les jours ouvrés suivants"
+
+{% youtube NBl77byL1KM %}
+
 
 Quelques exemples :
 
@@ -67,6 +70,9 @@ Pour un régime non travaillé le vendredi
 * Une absence le jeudi toute la journée (durée 1 jour) va provoquer une consomation de 2 jours sur le solde de congés.
 * Une absence le mercredi matin (durée 0,5 jour) va provoquer une consomation de 1 jour sur le solde de congés.
 * Une absence le mercredi toute la journée (durée 1 jour) va provoquer une consomation de 1 jour sur le solde de congés.
+
+
+{% youtube tF4gIuYeckE %}
 
 
 ### Selon les jours travaillés
