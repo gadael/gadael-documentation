@@ -147,7 +147,7 @@ Dans ce cas, il est possible que la quantité initiale ne soit pas visible ou pa
 | Actif pour                  | Permet de déterminer qui peut créer les demandes d'absence. Par exemple pour un droit d'absence pour maladie, ou pourra laisser uniquement l'administrateur créer les absences |
 | Répartition automatique     | La quantité à distribuer sur les droits sera automatiquement attribuée sur ce droit sans dépassement de la quantité disponible et en respectant l'ordre des types et des droits, si un autre droit existe au dessus avec cette option cochée le solde de ce droit sera utilisé en priorité |
 | Requiert une approbation    | Cette option permet de désactiver l'approbation. Cela peut être utilisé pour les déclarations d'absence maladie, conjointement avec l'option "Active pour". |
-| Utiliser la période d'ouverture par défaut | Décocher cette option permet d'élargir la disponibilité du droit en fonction des dates de début et de fin des renouvellements. |
+| Utiliser la période d'ouverture par défaut | Décocher cette option permet de restreindre la période possible de prise de congés par rapport à la date de la demande. Par exemple pour être sûr que les demandes sont faites au moins 30 jours avant la date de début du congé |
 | Permettre les dépôts sur le compte épargne temps | A cocher si ce droit peut être épargné.
 | Quantité consommée pour les régimes temps partiel | Cette option permet le choix de la règle de consommation du solde pour les temps partiels, pour plus d'informations consulter la [documentation](006-temps-partiels.html).
 

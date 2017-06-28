@@ -148,7 +148,7 @@ In this case it is possible that the initial quantity is not visible or can not 
 | Active for                  | Determines who can create leave requests. For example for a illness absence right, you may set the administrators only as possible author |
 | Automatic distribution      | The quantity to be distributed on the rights will automatically be allocated on this right without exceeding the quantity available and respecting the types and rights order, if another right exists above with this option checked the balance of this right will be used in priority |
 | Require an Approval         | This option enable or disable approval. This can be used for declaring sickness absence right, in conjunction with the "Active for" option. |
-| Use the default opening period | Unchecking this option extends the availability of the right based on the renewal start and end dates. |
+| Use the default opening period | Unchecking this option allows you to restrict the possible leave period from the request date. For example, to ensure that requests are made at least 30 days before the leave start date. |
 | Allow deposits on the time savings account | Check if this right can be saved to a time saving account. |
 | Quantity consumed for part-time work schedule | This option allows the choice of the consumption rule for part-time workschedules, for more information consult the [documentation](006-parts-times.html). |
 
